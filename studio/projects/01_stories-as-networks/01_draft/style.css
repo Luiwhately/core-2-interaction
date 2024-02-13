@@ -1,0 +1,77 @@
+html{
+    background-color: rgb(29, 27, 27);
+}
+
+/** FONTS**/
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.grid{
+    display:grid;
+    grid-template-areas: "header header" "main main" "aside aside" "footer footer";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 30vh 10vh 60vh 20vh;
+    width: 1100px;
+    margin-left: 180px;
+    
+}
+
+header{
+    background-color: #EFE4C6;
+    grid-area: header;
+    margin-block: 5px;
+    text-align: center;
+    font-size: 150px;
+   
+}
+
+main{
+    background-color: #EFE4C6;
+    grid-area: main;
+    margin: 0px;
+    padding: 0px;
+    height:70px;
+    width: auto;
+}
+
+aside{
+    background-color: #EFE4C6;
+    grid-area: aside;
+   padding: 80px;
+
+   
+   
+}
+
+footer{
+    background-color: #EFE4C6;
+    grid-area: footer;
+}
+
+.right_alignment{
+    text-align: right;
+}
+
+.button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    color: black;
+    background-color: #978f79;
+   
+}
