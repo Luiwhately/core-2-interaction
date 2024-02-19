@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ /** fonts **/
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+.frontpage:before, 
+.frontpage:after {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  content: '';
+  width: 700px;
+}
+
+.frontpage:before {
+  left: 0;
+  border-right: 1px solid #DADCE0;
+}
+
+.frontpage:after {
+  right: 0;
+  border-left: 1px solid #DADCE0;
+
+}
+.header{
+    position: relative;
+    padding: 10px;
+    background-color: rgb(128, 129, 129);
+    grid-column: 1 / span 5;
+    text-align: center;
+    font-size: 100px;
+    display: block;
+}
+
+.headingsonpage{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.firstletter{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.fp-cell--border-top:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -16px;
+  right: -16px;
+  border-top: 3px solid #121212;
+}
+
+
+.fp-item {
+  background-color: #efefef;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  min-height: 200px;
+  height:fit-content;
+ padding: 100px;
+ 
+  
+}
+.fp-cell {
+    position: relative;
+    z-index: 2;
+    padding: 10px 0;
+    background-color: #ffffff;
+    width: 800px;
+    margin-left: 300px;
+   
+    
+  }
+  
+  .heading{
+    font-size: 40px;
+    font-weight:bolder;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding: 10px;
+  }
+
+
+
+  .fp-cell--1 {
+   margin-bottom: 10px;
+   
+  }
+
+  .fp-cell--2 {
+    height: 80px;
+    padding-top: 10px;
+  }

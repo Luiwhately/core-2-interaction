@@ -1,0 +1,205 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ /** fonts **/
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.frontpage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 0px;
+  grid-column-gap: 7px;
+  border: 4px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  overflow: hidden;
+}
+
+.frontpage:before, 
+.frontpage:after {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  content: '';
+  width: calc(20% - 4px);
+}
+
+.frontpage:before {
+  left: 0;
+  border-right: 1px solid #DADCE0;
+}
+
+.frontpage:after {
+  right: 0;
+  border-left: 1px solid #DADCE0;
+
+}
+
+
+.firstletter{
+    font-size: 40px;
+  
+}
+
+
+.fp-cell--border-top:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -16px;
+  right: -16px;
+  border-top: 3px solid #121212;
+}
+
+.fp-cell--border-side:before {
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: -10px;
+    border-right: 3px black;
+  }
+  
+
+.fp-item {
+  background-color: #efefef;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  min-height: 200px;
+  height:fit-content;
+  
+}
+.fp-cell {
+    position: relative;
+    z-index: 2;
+    padding: 3px 0px;
+    background-color: #fff;
+    
+    
+  }
+  .header{
+    position: relative;
+    padding: 10px;
+    background-color: rgb(128, 129, 129);
+    grid-column: 1 / span 5;
+    text-align: center;
+    font-size: 100px;
+    display: block;
+
+}
+  .heading{
+    font-size: 40px;
+    font-weight:bolder;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding: 10px;
+   
+    
+  }
+/** HEADINGS ON THE PAGE**/
+.headingsonpage{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+  
+  
+  .fp-cell--2 {
+    grid-column: 1 / span 1;
+   
+   
+  }
+
+  .fp-cell--3 {
+    grid-column: 2 / span 1;
+    
+  }
+
+  .fp-cell--4 {
+    grid-column: 3 / span 1;
+  }
+
+  .fp-cell--5 {
+    grid-column: 4 / span 1;
+    
+  }
+  .fp-cell--6 {
+    grid-column: 5/ span 1;
+    
+  }
+  .fp-cell--7{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+
+  }
+  .fp-cell--8{
+    grid-column: 2 / span 1;
+    grid-row: 2;
+  }
+
+  .fp-cell--9 {
+    grid-column: 3 / span 1;
+    grid-row: 2;
+  }
+  .fp-cell--10 {
+    grid-column: 4 / span 1;
+    grid-row: 2;
+  }
+ 
+  .fp-cell--11 {
+    grid-column: 5 / span 1;
+    grid-row: 2;
+  }
+  .fp-cell--12 {
+    grid-column: 3/ span 1;
+    grid-row: 3;
+  }
+  .fp-cell--13 {
+    grid-column: 2 / span 1;
+    grid-row: 3;
+  }
+  .fp-cell--14 {
+    grid-column: 3 / span 1;
+    grid-row: 3;
+  }
+  .fp-cell--15 {
+    grid-column: 4 / span 1;
+    grid-row: 3;
+  }
+
+ 
+ 
+  .linking-poet-page{
+    color: black;
+  }
+ 
