@@ -28,40 +28,62 @@
     font-style: normal;
   }
   
-
+  .backgroundimage{
+    background-image: url('backgroundimage.png');
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      width: 100%;
+      height: 100vh; 
+      opacity: 20%;
+      z-index: 1;
+    
+    }
 .frontpage:before, 
 .frontpage:after {
   position: absolute;
   top: 0;
-  height: 100%;
+  height: 900px;
   content: '';
-  width: 700px;
+  width:1440px;
+  box-shadow: 0px 0px 10px rgba(19, 19, 19, 0.972); 
+  padding: 20px; 
+  border-color: #121212 40px;
+  
+  
 }
 
-.frontpage:before {
-  left: 0;
-  border-right: 1px solid #DADCE0;
-}
 
-.frontpage:after {
-  right: 0;
-  border-left: 1px solid #DADCE0;
-
-}
 .header{
     position: relative;
     padding: 10px;
     background-color: rgb(128, 129, 129);
-    grid-column: 1 / span 5;
     text-align: center;
     font-size: 100px;
+    width: 800px;
+    margin-left: 300px;
+
     display: block;
+    border: 4px solid black;
+    border-top: 4px solid black;
+  
 }
 
 .headingsonpage{
     font-weight: 600;
     font-size: 20px;
     text-align: center;
+    background-color:  #efefef;
+    display: block;
+    width: 800px;
+    height: 80px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    padding: 0px; 
+    display:inline-block;
    
 }
 
@@ -71,13 +93,14 @@
 }
 
 
-.fp-cell--border-top:before {
+.fp-cell--border-bottom:before {
   content: '';
   position: absolute;
   top: 0;
   left: -16px;
   right: -16px;
   border-top: 3px solid #121212;
+
 }
 
 
@@ -89,6 +112,7 @@
   min-height: 200px;
   height:fit-content;
  padding: 100px;
+ text-align: justify;
  
   
 }
@@ -96,9 +120,12 @@
     position: relative;
     z-index: 2;
     padding: 10px 0;
-    background-color: #ffffff;
+    background-color:#efefef;
     width: 800px;
     margin-left: 300px;
+   
+    padding: 0px; 
+    margin-top: -20px;
    
     
   }
@@ -116,11 +143,33 @@
 
 
   .fp-cell--1 {
-   margin-bottom: 10px;
+   
+   border-left: 4px solid black;
+   border-right: 4px solid black;
+   border-bottom: 4px solid black;
    
   }
 
   .fp-cell--2 {
     height: 80px;
-    padding-top: 10px;
+    padding-top: 0px;
+  }
+
+  .button {
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #878686; 
+    color: white;
+    background-color: #242524; 
+    cursor: pointer;
+    box-shadow: #242524;
+    margin-left: 340px;
+  }
+  
+  .button:hover {
+    background-color: #181818; 
   }
