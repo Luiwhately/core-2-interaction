@@ -1,4 +1,4 @@
-/* Set the font-family to chomsky like this. font-family: Chomsky, cursive; */
+
 @font-face {
     font-family: chomsky;
     src: url(Chomsky.otf);
@@ -38,7 +38,7 @@
     margin: 0;
     padding: 4px 8px;
     box-sizing: border-box;
-    max-width: 600px;
+    max-width: 900px;
   }
   
   
@@ -149,6 +149,7 @@
     padding: 4px 8px;
     box-sizing: border-box;
     max-width: 400px;
+    
   
     
 }
@@ -156,6 +157,7 @@
 .flex-container-1 {
     display: flex;
     align-items:flex-start;
+    
 
   
 }
@@ -184,4 +186,13 @@
     background-color: #c6b792;
 }
 
-  
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .side-article {
+      flex: 100%;
+    }
+  }
+
+  .unstyled-link {
+    color: inherit; /* Use the default text color */
+    text-decoration: none;}
