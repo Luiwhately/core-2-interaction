@@ -1,20 +1,25 @@
 /* Set the font-family to chomsky like this. font-family: Chomsky, cursive; */
 @font-face {
-    font-family: chomsky;
-    src: url(Chomsky.otf);
-  }
+  font-family: OldNewspaperTypes;
+  src: url(OldNewspaperTypes.ttf);
+}
+@font-face {
+  font-family: Unique;
+  src: url(Unique.ttf);
+}
   
   html {
     font-size: 140%;
   }
   
   body {
-    font-family: sans-serif;
+    font-family: Unique;
     background-color: #232323;
     max-width: 1200px;
-    margin-left: 140px;
+    margin:auto;
     border: 2px solid;
     padding: 2px;
+    align-items:center;
    
   }
   
@@ -24,7 +29,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: OldNewspaperTypes;
     font-weight: normal;
     margin: 0;
     padding: 4px 8px;
@@ -32,7 +37,7 @@
   }
   
   p {
-    font-family: serif;
+    font-family: Unique;
     font-size: 16px;
     text-align: justify;
     margin: 0;
@@ -51,7 +56,7 @@
   }
   
   header h1 {
-    font-family: Chomsky, cursive !important;
+    font-family: OldNewspaperTypes;
     font-size: 92px;
     
     
@@ -121,4 +126,41 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 2px;
+        font-family: OldNewspaperTypes;
       }
+
+
+   @media screen and (max-width: 600px) {
+    .section{
+      display:none;
+      margin: auto;
+    
+    
+    
+    }
+
+    .side-article{
+      width: 100%;
+      display: none;
+      margin: auto;
+    }
+
+    .header h1 {
+      width: 100%;
+      display: none;
+      margin: auto;
+      font-size: 20px;
+    }
+
+    .footer{
+      width: 100%;
+      display: none;
+      margin: auto;
+    }
+
+    .body{
+      font-size: 14px;
+    }
+
+  }
+  

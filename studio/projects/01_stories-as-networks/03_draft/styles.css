@@ -24,7 +24,7 @@
     max-width: 1200px;
     max-height: fit-content;
     margin: auto;
-    align-items: center;
+    align-items: justify;
     border: 2px solid;
     padding: 2px;
    
@@ -96,7 +96,7 @@
   
   section {
     display: flex;
-    align-content: center;
+    align-content: justify;
     text-align: justify;
     background-color: #c6b792;
    
@@ -120,13 +120,13 @@
     margin-right: 10px;
     margin-top: 12px;
     max-width: 600px;
-    align-items: center;
-    justify-content: center;
+    align-items: justify;
+    justify-content: justify;
     width: 70%;
   }
   
   .side-article h3{
-    text-align: center;
+    text-align: justify;
     margin-bottom: 10px;
     font-size: 92px;
     line-height: 30%;
@@ -142,14 +142,14 @@
     border-right: 1px solid;
     margin-right: 10px;
     max-width: 600px;
-    align-items: center;
-    justify-content: center;
+    align-items: justify;
+    justify-content: justify;
     width: 70%;
     margin-top: 12px;
     
   }
   .main-article h3{
-    text-align: center;
+    text-align: justify;
     margin-bottom: 10px;
     font-size: 82px;
     line-height: 30%;
@@ -160,7 +160,7 @@
 
   .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: justify;
     align-items:start;
   
    
@@ -175,7 +175,7 @@
     padding: 4px 8px;
     box-sizing: border-box;
     max-width: 400px;
-    justify-content: center;
+    justify-content: justify;
     align-items:start;
     
   
@@ -194,19 +194,26 @@
 .unstyled-link {
     color: inherit;
     text-decoration: none;
+    transition: color 0.1s ease;
   }
+
+ .hover-link:hover {
+  color: rgb(93, 92, 92) ;
+  
+ }
 
 #flex-grow1{
    width: 200px;
+   
   }
 
 #flex-grow2{
-    width: 200px;
+    width: 400px;
    }
 
 #bottom-border{
     border-bottom: 2px solid black;
-    margin: 2px;
+    margin: 4px;
 
    }
 
@@ -232,3 +239,4 @@
 
 
   }
+
