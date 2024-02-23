@@ -1,18 +1,30 @@
-
 @font-face {
     font-family: chomsky;
     src: url(Chomsky.otf);
   }
+  @font-face {
+    font-family: OldNewspaperTypes;
+    src: url(OldNewspaperTypes.ttf);
+  }
+  @font-face {
+    font-family: Unique;
+    src: url(Unique.ttf);
+  }
   
+
+
+
   html {
-    font-size: 140%;
+    font-size: 100%;
   }
   
   body {
-    font-family: sans-serif;
+    font-family: Unique;
     background-color: #232323;
     max-width: 1200px;
-    margin-left: 140px;
+    max-height: fit-content;
+    margin: auto;
+    align-items: center;
     border: 2px solid;
     padding: 2px;
    
@@ -24,7 +36,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: OldNewspaperTypes;
     font-weight: normal;
     margin: 0;
     padding: 4px 8px;
@@ -32,7 +44,7 @@
   }
   
   p {
-    font-family: serif;
+    font-family: Unique;
     font-size: 16px;
     text-align: justify;
     margin: 0;
@@ -51,8 +63,8 @@
   }
   
   header h1 {
-    font-family: Chomsky, cursive !important;
-    font-size: 92px;
+    font-family: OldNewspaperTypes;
+    font-size: 80px;
     
     
   }
@@ -84,7 +96,7 @@
   
   section {
     display: flex;
-    align-content: space-between;
+    align-content: center;
     text-align: justify;
     background-color: #c6b792;
    
@@ -92,7 +104,7 @@
   
   article {
     margin-top: 18px;
-  
+   
   }
   
   .side-article {
@@ -100,30 +112,43 @@
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: 800px;
-    max-height: 1000px;
+   
+    flex-shrink: .3;
+    overflow: hidden;
+    padding-right: 4px;
+    border-right: 1px solid;
+    margin-right: 10px;
+    margin-top: 12px;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+  
+  .side-article h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 92px;
+    line-height: 30%;
+  }
+  .main-article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 800px;
     flex-shrink: .3;
     overflow: hidden;
     padding-right: 4px;
     border-right: 1px solid;
     margin-right: 10px;
     max-width: 600px;
-    
-  }
-  
-  .side-article *{
+    align-items: center;
+    justify-content: center;
     width: 70%;
-  }
-  .side-article h3{
-    text-align: center;
-  }
-  .main-article{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin-top: 12px;
     
   }
-  .main-article h2{
+  .main-article h3{
     text-align: center;
     margin-bottom: 10px;
     font-size: 82px;
@@ -135,48 +160,27 @@
 
   .flex-container {
     display: flex;
-    align-items:flex-start;
+    justify-content: center;
+    align-items:start;
   
    
 }
 
 .flex-container > div {
     
-    font-family: serif;
+    font-family: Unique;
     font-size: 16px;
     text-align: justify;
     margin: 0;
     padding: 4px 8px;
     box-sizing: border-box;
     max-width: 400px;
+    justify-content: center;
+    align-items:start;
     
   
     
 }
-
-.flex-container-1 {
-    display: flex;
-    align-items:flex-start;
-    
-
-  
-}
-.flex-container-1 > div {
-    
-    font-family: serif;
-    font-size: 16px;
-    text-align: justify;
-    margin: 0;
-    padding: 4px 8px;
-    max-width: 400px;
- 
-   
-}
-
-.right-sided{
-    margin-left: 380px;
-}
-
 .footer{
     padding: 8px 0;
     border-top: 1px solid;
@@ -186,13 +190,45 @@
     background-color: #c6b792;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-    .side-article {
-      flex: 100%;
-    }
+
+.unstyled-link {
+    color: inherit;
+    text-decoration: none;
   }
 
-  .unstyled-link {
-    color: inherit; /* Use the default text color */
-    text-decoration: none;}
+#flex-grow1{
+   width: 200px;
+  }
+
+#flex-grow2{
+    width: 200px;
+   }
+
+#bottom-border{
+    border-bottom: 2px solid black;
+    margin: 2px;
+
+   }
+
+
+   @media screen and (max-width: 800px) {
+    .flex-container{
+      display:none;
+      margin: auto;
+      margin: auto;
+    
+    
+    }
+
+    .side-article{
+      width: 100%;
+      display: none;
+    }
+
+    .main-article{
+      width: 100%;
+      display: none;
+    }
+
+
+  }
