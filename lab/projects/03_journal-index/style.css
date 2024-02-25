@@ -1,0 +1,29 @@
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rectangle{
+    width: 200px; 
+    height: 100px; 
+    background-color: rgba(100, 100, 131, 0);
+    border-color: bisque;
+    stroke-width: 3px;
+}
+
+.grid-container{
+    width:80%;
+    height: auto;
+    margin: auto;
+    display;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+    ;
+}
+
+.grid-item{
+    margin-bottom: 2px;
+    padding: 1px;
+    border: 2px;
+}
