@@ -1,29 +1,70 @@
-.header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.html{
+    background-color: darkgray;
+
 }
 
-.rectangle{
-    width: 200px; 
-    height: 100px; 
-    background-color: rgba(100, 100, 131, 0);
-    border-color: bisque;
-    stroke-width: 3px;
-}
-
-.grid-container{
-    width:80%;
-    height: auto;
+body{
+    max-width: 700px;
     margin: auto;
-    display;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-
-    ;
+    background-color:cadetblue;
 }
 
-.grid-item{
-    margin-bottom: 2px;
-    padding: 1px;
-    border: 2px;
+.MainHeader {
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: #3a5293;
+    padding: 20px;
+    text-align: center;
+   height: auto;
+   width: auto;
+}
+
+.grid-item:hover {
+    background-color: #222f55;
+    box-shadow: #1b2442;
+
+  }
+
+img, video, audio, object {
+    width: 100%;
+    margin-top: 10px;
+}
+
+object{
+    aspect-ratio: 4/3;
+}
+
+/* Nav */
+
+.Nav{
+    position: fixed;
+    top: 10px ;
+    right: 10px ;
+
+}
+.Nav a {
+    color: rgb(134, 34, 34)
+}
+
+.Nav-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav-item{
+    display: inline-block;
+    background-color: rgb(83, 176, 176);
+    padding: 5px;
 }
