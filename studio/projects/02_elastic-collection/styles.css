@@ -1,0 +1,196 @@
+.Container {
+  background-color: #fff;
+  display: flex;
+  padding-bottom: 80px;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #000;
+  padding: 0 38px 0 16px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}
+
+
+.HeaderImage{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 500;
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 91px;
+}
+
+
+.HeaderText {
+  font-family: MuseoModerno, sans-serif;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  margin-top: 19px;
+  align-items: start;
+  justify-content: center;
+  padding: 13px 45px;
+}
+
+@media (max-width: 991px) {
+  .HeaderText {
+    padding: 0 20px;
+  }
+}
+
+.HeaderTitle {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 400 64px Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .header-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.PageFilter {
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  align-self: start;
+  display: flex;
+  margin-top: 28px;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 16px 27px;
+}
+
+@media (max-width: 991px) {
+  .header-options {
+    padding: 0 20px;
+  }
+}
+
+.PageFilter-1 {
+  font-family: MuseoModerno, sans-serif;
+}
+
+.PageFilter-2 {
+  font-family: MuseoModerno, sans-serif;
+}
+
+.PageFilter-3 {
+  color: #802536;
+  font-family: MuseoModerno, sans-serif;
+  
+}
+
+.MainContent {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  column-gap: 50px;
+  row-gap: 50px;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  align-self: start;
+  padding: 19px 20px;
+  margin-top: auto;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 40px 70px 40px 70px;
+}
+
+.GridItem {
+  display: flex;
+  margin-top: auto;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 40px 70px 40px 70px;
+}
+
+@media (max-width: 991px) {
+  .GridItem {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .MainContent {
+    max-width: 100%;
+  }
+}
+
+.GridRow {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .GridRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.GridColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  margin-left: 0px;
+  
+}
+
+@media (max-width: 991px) {
+  .GridColumn {
+    width: 100%;
+  }
+}
+
+
+.GridImage {
+  aspect-ratio: 0.96;
+  object-fit:contain;
+  object-position: center;
+  width: 100%;
+  align-self: center;
+
+}
+
+.GridImageText {
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  display: flex;
+  margin-top: 18px;
+  gap: 20px;
+  padding: 9px 45px 9px 19px;
+}
+
+@media (max-width: 991px) {
+  .GridImageText {
+    padding-right: 20px;
+  }
+}
+
+
+.FilterColorIcon {
+  background-color: #7e1426;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  position:relative;
+}
+
+

@@ -1,0 +1,105 @@
+.body {
+    background-color: #fff;
+    padding: 0 20px;
+  }
+  
+  .div-2 {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+
+  .Header{
+    display:block;
+    position: absolute;
+    font-size: 50px;
+    color: #000;
+    font-weight: 100;
+    margin-left: 900px;
+   margin-top: 150px;
+
+  }
+  
+  @media (max-width: 991px) {
+    .Header {
+      margin-top: 40px;
+    }
+  }
+  
+  
+  .HomeMenu {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0px;
+  }
+  
+  @media (max-width: 991px) {
+    .HomeMenu {
+      width: 50%;
+    }
+  }
+  
+ 
+  
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 91px;
+  }
+  
+  .NavItem {
+    font-family: MuseoModerno, sans-serif;
+    border-radius: 40px;
+    background-color: #d9d9d9;
+    margin-top: 8px;
+    justify-content: center;
+    padding: 13px 49px;
+  }
+  
+  @media (max-width: 991px) {
+    .NavItem {
+      padding: 0 20px;
+    }
+  }
+  
+  .Map {
+    display: flex;
+    line-height: normal;
+    width: 75%;
+    margin-left: 300px;
+  }
+  
+  @media (max-width: 991px) {
+    .Map {
+      width: 100%;
+    }
+  }
+  
+
+
+  .Paragraph{
+    border-left: 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-content: baseline;
+    
+  }
+
+  .img{
+    width: 10px;
+    height: auto;
+    
+
+  }
