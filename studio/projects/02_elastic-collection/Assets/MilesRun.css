@@ -3,39 +3,176 @@
     grid-auto-columns: max-content;
     grid-auto-flow: dense;
     grid-auto-rows: minmax(100px, auto);
-    grid-gap: 25px;
+    grid-gap: 40px;
+    border: 2px black;
     grid-template-columns: repeat(3, 1fr);
       margin: 60px auto;
-      max-width: 800px;
+      max-width: 900px;
   }
   
-  .product {
-    .product {
-      background-color: #e5e5e5;
+  .tracks {
+    .trackPictures {
+      background-color: #ffffff;
       display: block;
       min-height: 200px;
       width: 100%;
     }
+
     
-    .run1Info {
+    
+    .trackPageLink{
+      border-radius: 25px;
+      background: #b3b3b3;
+      padding: 5px; 
+      width: 170px;
+      height:fit-content;
+      text-align: center;
+      margin: 8px;
+    
       
+
+
       .p {
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-     
-        .a {
-          color: #000000;
-          text-decoration: none;
-        }
-      }
-    }
-    
-    &__price {
-  
-      p {
+        color: rgb(142, 29, 29);
+        padding: 4px;
+        position: relative;
         font-family: sans-serif;
         font-size: 14px;
+       
       }
+
+     
     }
   }
+
+  .trackPictures:hover{
+background-color: rgb(231, 231, 231);
+transition: ease-in;
+
+  }
+  .logo{
+    width: 110px;
+    height: auto;
+    position: sticky;
+    margin-left: 40px;
+    margin-top: -48px;
+    position:fixed;
+
+  }
+
+  .navegationContainer{
+    position:fixed;
+    margin-top: 150px;
+    margin-left: 5px;
+  }
+  .milesControl{
+    border-radius: 25px;
+    background: #b3b3b3;
+    padding: 5px; 
+    width: 150px;
+    height:fit-content;
+    text-align: center;
+  }
+ 
+  
+
+ .reviewControl{
+  border-radius: 25px;
+  background: #b3b3b3;
+  padding: 5px;  
+  width: 150px;
+  height:fit-content;
+  text-align: left;
+  
+
+ }
+ .startingLocationControl{
+  border-radius: 25px;
+  background: #b3b3b3;
+  padding: 5px;  
+  width: 150px;
+  height:fit-content;
+  text-align: center;
+ }
+
+ .loopedControls{
+  border-radius: 25px;
+  background: #b3b3b3;
+  padding: 5px; 
+  width: 150px;
+  height:fit-content;
+  text-align: center;
+ }
+
+.navButton{
+  padding: 4px;
+  margin: 5px;
+  text-align: left;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow:hover{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.menu{
+text-align: right ;
+margin-right: 20px;
+
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  border-radius: 25px;
+  background: #b3b3b3;
+  padding: 5px; 
+  width: 150px;
+  height:fit-content;
+  text-align: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
