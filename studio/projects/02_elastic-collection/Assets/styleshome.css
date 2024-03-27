@@ -7,6 +7,7 @@
   .menu{
     text-align: right ;
     margin-right: 20px;
+    z-index: 2;
     
     }
     
@@ -88,160 +89,191 @@
   width: 110px;
   height: auto;
   position: sticky;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 4%;
+  margin-top: 4%;
   position:fixed;
   
     }
 
   .RockefellerPark{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:400px;
-    left: 400px;
+    top:32%;
+    left: 4%;
     transform: translate(-50%, -50%);
-   
+   z-index:1 ;
   }
 
   .RockefellerParkLoop{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:40px;
-    left: 80px;
+    top:4%;
+    left: 37%;
     transform: translate(-50%, -50%);
-    transform: rotate(360deg);
+    transform: rotate(120deg);
+    z-index: 1;
   }
 
   .BigLoopAtProspectPark{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:80px;
-    left: 500px;
+    top:12%;
+    left: 12%;
     transform: translate(-50%, -50%);
     transform: rotate(45deg);
+    z-index: 1;
   }
 
   .LittleIslandtoOneWorldTrade{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:200px;
-    left: 600px;
+    top:10%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    transform: rotate(45deg);
+    transform: rotate(60deg);
+    z-index: 1;
   }
 
   .MadisonSquareParktoEastRiverParkField8{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:500px;
-    left: 100px;
+    top:-20%;
+    left: 20%;
     transform: translate(-50%, -50%);
     transform: rotate(80deg);
+    z-index: 1;
   }
 
   .OneLoopatCentralPark{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:100px;
-    left: 800px;
+    top:-50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     transform: rotate(80deg);
+    z-index: 1;
 
   }
 
   .OneLoopatShumanRunningTrack{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:400px;
-    left: 500px;
+    top:-20%;
+    left: 0%;
     transform: translate(-50%, -50%);
     transform: rotate(280deg);
+    z-index: 1;
   }
 
 
   .PebbleBeachtoBrooklynBridgeParkLoop{
-    max-width: 1200px;
+    max-width:100%;
     height: auto;
     position: absolute;
-    top:25px;
-    left: 300px;
+    top:-57%;
+    left: 8%;
     transform: translate(-50%, -50%);
     transform: rotate(60deg);
+    z-index: 1;
   }
 
   .RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:5px;
-    left: 100px;
+    top:-35%;
+    left: 70%;
     transform: translate(-50%, -50%);
     transform: rotate(30deg);
+    z-index: 1;
   }
 
   .RooseveltIsland{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:300px;
-    left:0px;
+    top:15%;
+    left:0%;
     transform: translate(-50%, -50%);
-    transform: rotate(300deg);
+    transform: rotate(280deg);
+    z-index: 1;
   }
 
   .SmallLoopAtProspectPark{
-    max-width: 1200px;
+    max-width:100%;
     height: auto;
     position: absolute;
-    top:250px;
-    left:90px;
+    top:5%;
+    left:-5%;
     transform: translate(-50%, -50%);
-    transform: rotate(80deg);
+    transform: rotate(90deg);
+    z-index: 1;
   }
 
   .StuyvesantSquareParktoWilliansburgBridgeLoop{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:200px;
-    left:600px;
+    top:20%;
+    left:60%;
     transform: translate(-50%, -50%);
-    transform: rotate(80deg);
+    transform: rotate(10deg);
+    z-index: 1;
   }
 
   .ThreeLoopsatShumanRunningTrack{
-    max-width: 1200px;
+    max-width:100%;
     height: auto;
     position: absolute;
-    top:0px;
-    left:500px;
+    top:0%;
+    left:0%;
     transform: translate(-50%, -50%);
     transform: rotate(80deg);
+    z-index: 1;
   }
 
   .ThreeLoopsInCentralPark{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:400px;
-    left:50px;
+    top:2%;
+    left:50%;
     transform: translate(-50%, -50%);
     transform: rotate(80deg);
+    z-index: 1;
   }
 
   .VesseltoHudsonRiverGreenwayLoop{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top:230px;
-    left:240px;
+    top:23%;
+    left:44%;
     transform: translate(-50%, -50%);
-    transform: rotate(310deg);
+    transform: rotate(100deg);
+    z-index: 1;
   }
+
+
+  #Layer_1{
+  fill: none;
+   stroke: #000;
+   stroke-miterlimit: 10;
+   stroke-width: 5px;
+   position: absolute;
+   top:10%;
+   left:40%;
+   z-index: 1;
+   }
+   
+      
+     #Layer_1:hover {
+       stroke: rgb(160, 59, 59);
+     }
