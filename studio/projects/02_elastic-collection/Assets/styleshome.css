@@ -83,7 +83,9 @@
       text-align: center;
     }
 
-
+.containerMap{
+  z-index: 1;
+}
 
 .logo{
   width: 110px;
@@ -92,188 +94,318 @@
   margin-left: 4%;
   margin-top: 4%;
   position:fixed;
+}
   
-    }
-
-  .RockefellerPark{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:32%;
-    left: 4%;
-    transform: translate(-50%, -50%);
-   z-index:1 ;
-  }
-
-  .RockefellerParkLoop{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:4%;
-    left: 37%;
-    transform: translate(-50%, -50%);
-    transform: rotate(120deg);
-    z-index: 1;
-  }
-
-  .BigLoopAtProspectPark{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:12%;
-    left: 12%;
-    transform: translate(-50%, -50%);
-    transform: rotate(45deg);
-    z-index: 1;
-  }
-
-  .LittleIslandtoOneWorldTrade{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:10%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    transform: rotate(60deg);
-    z-index: 1;
-  }
-
-  .MadisonSquareParktoEastRiverParkField8{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:-20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    transform: rotate(80deg);
-    z-index: 1;
-  }
-
-  .OneLoopatCentralPark{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:-50%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    transform: rotate(80deg);
-    z-index: 1;
-
-  }
-
-  .OneLoopatShumanRunningTrack{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:-20%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    transform: rotate(280deg);
-    z-index: 1;
-  }
-
-
-  .PebbleBeachtoBrooklynBridgeParkLoop{
-    max-width:100%;
-    height: auto;
-    position: absolute;
-    top:-57%;
-    left: 8%;
-    transform: translate(-50%, -50%);
-    transform: rotate(60deg);
-    z-index: 1;
-  }
-
-  .RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:-35%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    transform: rotate(30deg);
-    z-index: 1;
-  }
-
-  .RooseveltIsland{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:15%;
-    left:0%;
-    transform: translate(-50%, -50%);
-    transform: rotate(280deg);
-    z-index: 1;
-  }
-
-  .SmallLoopAtProspectPark{
-    max-width:100%;
-    height: auto;
-    position: absolute;
-    top:5%;
-    left:-5%;
-    transform: translate(-50%, -50%);
-    transform: rotate(90deg);
-    z-index: 1;
-  }
-
-  .StuyvesantSquareParktoWilliansburgBridgeLoop{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:20%;
-    left:60%;
-    transform: translate(-50%, -50%);
-    transform: rotate(10deg);
-    z-index: 1;
-  }
-
-  .ThreeLoopsatShumanRunningTrack{
-    max-width:100%;
-    height: auto;
-    position: absolute;
-    top:0%;
-    left:0%;
-    transform: translate(-50%, -50%);
-    transform: rotate(80deg);
-    z-index: 1;
-  }
-
-  .ThreeLoopsInCentralPark{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top:2%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    transform: rotate(80deg);
-    z-index: 1;
-  }
-
-  .VesseltoHudsonRiverGreenwayLoop{
-    max-width: 100%;
-    height: auto;
+  #VesseltoHudsonRiverGreenwayLoop{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
     position: absolute;
     top:23%;
     left:44%;
     transform: translate(-50%, -50%);
     transform: rotate(100deg);
-    z-index: 1;
+   
+  }
+
+  #VesseltoHudsonRiverGreenwayLoop:hover{
+    stroke:rgb(48, 48, 125)
   }
 
 
-  #Layer_1{
-  fill: none;
-   stroke: #000;
-   stroke-miterlimit: 10;
-   stroke-width: 5px;
-   position: absolute;
-   top:10%;
-   left:40%;
-   z-index: 1;
-   }
+  #ThreeLoopsInCentralPark{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:2%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(80deg);
+    
+  }
+
+  #ThreeLoopsInCentralPark:hover{
+    stroke:red
+  }
+
+  #ThreeLoopsatShumanRunningTrack{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:0%;
+    left:0%;
+    transform: translate(-50%, -50%);
+    transform: rotate(80deg);
+    
+  }
+
+  #ThreeLoopsatShumanRunningTrack:hover{
+    stroke:red
+  }
+
+  #StuyvesantSquareParktoWilliansburgBridgeLoop{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:20%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    transform: rotate(10deg);
+  }
+
+  #StuyvesantSquareParktoWilliansburgBridgeLoop:hover{
+    stroke:red
+  }
+
+
+  #SmallLoopAtProspectPark{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:5%;
+    left:-5%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    
+  }
+
+  #SmallLoopAtProspectPark:hover{
+    stroke:blue
+  }
+
+
+  #RooseveltIsland{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:15%;
+    left:0%;
+    transform: translate(-50%, -50%);
+    transform: rotate(280deg);
+    
+  }
+
+  #RooseveltIsland:hover{
+    stroke:rgb(148, 44, 44)
+  }
+
+  #RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:-35%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    transform: rotate(30deg);
    
-      
-     #Layer_1:hover {
-       stroke: rgb(160, 59, 59);
+  }
+
+  #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover{
+    stroke:rgb(148, 44, 44)
+  }
+
+  #PebbleBeachtoBrooklynBridgeParkLoop{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:-57%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg);
+  }
+
+  #PebbleBeachtoBrooklynBridgeParkLoop:hover{
+    stroke: blue
+  }
+
+#OneLoopatShumanRunningTrack{
+  fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+  top:-20%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  transform: rotate(280deg);
+}
+
+#OneLoopatShumanRunningTrack:hover{
+  stroke: green
+}
+
+
+#OneLoopatCentralPark{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  position: absolute;
+  top:-50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  transform: rotate(80deg);
+    
+  }
+
+  #OneLoopatCentralPark:hover{
+    stroke: green
+  }
+
+  #MadisonSquareParktoEastRiverParkField8{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:-20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(80deg);
+  }
+
+  #MadisonSquareParktoEastRiverParkField:hover{
+    stroke:blue
+  }
+
+  #LittleIslandtoOneWorldTrade{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:10%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg);
+
+  }
+
+  #LittleIslandtoOneWorldTrade:hover{
+    stroke:red
+  }
+
+  #HudsonRun{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  #HudsonRun:hover{
+    stroke:blue
+  }
+
+  #BrooklynBridgeLoop{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:22%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+  }
+
+  #BrooklynBridgeLoop:hover{
+    stroke: blue
+  }
+
+  #BigLoopAtProspectPark{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:12%;
+    left: 12%;
+    transform: rotate(45deg);
+  }
+
+  #BigLoopAtProspectPark:hover{
+    stroke: green
+  }
+
+  #Layer_1{
+    fill: none;
+     stroke: black;
+     stroke-miterlimit: 10;
+     stroke-width: 5px;
+     position: absolute;
+     top:10%;
+     left:40%;
      }
+     
+        
+   #Layer_1:hover {
+     stroke: red
+    }
+
+    #RockefellerParkLoop{
+      fill:none;
+      stroke: black;
+      stroke-miterlimit: 10;
+      stroke-width: 4px;
+      position: absolute;
+      top:4%;
+      left: 7%;
+      
+    }
+  
+    #RockefellerParkLoop:hover {
+      stroke: red
+    }
+
+  
+
+  
+ 
+
+  
+
+ 
+
+  
+
+
+ 
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+ 
+
+
+ 
+
+  
+  
