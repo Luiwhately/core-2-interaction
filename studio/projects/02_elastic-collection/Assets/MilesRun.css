@@ -1,43 +1,30 @@
-.h3{
-  position:absolute;
-  margin-top: 30px;
-}
+
 
 .collection {
     display: grid;
     grid-auto-columns: max-content;
     grid-auto-flow: dense;
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 40px;
+    grid-auto-rows: minmax(20%, auto);
+    grid-gap: 2%;
     border: 2px black;
     grid-template-columns: repeat(3, 1fr);
-      margin: 60px auto;
-      max-width: 900px;
+      max-width: 70%;
+      margin-left:24%;
+      margin-top: 2%;
+      margin-bottom: 2%;
   }
   
   .tracks {
-    .trackPictures {
-      background-color: #ffffff;
-      border-radius: 25%;
-      display: block;
-      min-height: 200px;
-      width: 100%;
     
-    }
-
-    .trackPictures:hover{
-      filter: invert(100%);
-      transition-duration: 0.5s;
-    }
 
     .trackPageLink{
-      border-radius: 25px;
+      border-radius: 0%;
       background: #000000;
-      padding: 5px; 
-      width: 170px;
+      padding: 2%; 
+      width: 100%;
       height:fit-content;
       text-align: center;
-      margin: 8px;
+      margin: 8%;
     }
 
       .trackPageLink:hover{
@@ -52,87 +39,78 @@
   }
   }
 
-
-
-
   
   .logo{
-    width: 110px;
+    width: 3%;
     height: auto;
-    position: sticky;
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-left: 1%;
+    margin-top: -1%;
     position:fixed;
 
   }
 
   .navegationContainer{
     position:fixed;
-    margin-top: 180px;
-    margin-left: 5px;
+    margin-top: 5%;
+    max-width: 20%;
+  
   }
+
   .milesControl{
-    border-radius: 25px;
-    background: #000000;
-    padding: 5px; 
-    width: 150px;
+    border-radius: 0%;
+    background: #fdfdfd;
+    border-color: #000000;
+    padding: 2%; 
+    width: 100%;
     height:fit-content;
     text-align: center;
-    color:#f1f1f1
+    color:#000000;
+    margin-bottom: 10%;
   }
-  .milesControl:hover{
-  filter: invert(100%);
-  transition-duration: 0.5s;
-}
- 
+  
 
  .reviewControl{
-  border-radius: 25px;
-  background: #000000;
-  padding: 5px;  
-  width: 150px;
+  border-radius:0%;
+  background: #ffffff;
+  border-color: #000000;
+  padding: 2%; 
+    width: 100%;
   height:fit-content;
-  text-align: left;
+  text-align: center;
+  color:#000000;
+  margin-bottom: 10%;
  }
  
- .reviewControl:hover{
-  filter: invert(100%);
-  transition-duration: 0.5s;
- }
 
 
  .startingLocationControl{
-  border-radius: 25px;
-  background: #000000;
-  padding: 5px;  
-  width: 150px;
+  border-radius:0%;
+  background: #ffffff;
+  border-color: #000000;
+  padding: 2%; 
+    width: 100%;
   height:fit-content;
   text-align: center;
+  color:#000000;
+  margin-bottom: 10%;
  }
 
- .startingLocationControl:hover{
-  filter: invert(100%);
-  transition-duration: 0.5s;
- }
 
  .loopedControls{
-  border-radius: 25px;
-  background: #000000;
-  padding: 5px; 
-  width: 150px;
+  border-radius:0%;
+  background: #ffffff;
+  border-color: #000000;
+  padding: 2%; 
+    width: 100%;
   height:fit-content;
   text-align: center;
+  color:#000000;
  }
-
- .loopedControls:hover{
-  filter: invert(100%);
-  transition-duration: 0.5s;
- }
-
 
 .navButton{
-  padding: 4px;
-  margin: 5px;
+  border-radius: 0%;
+  padding: 2%;
+  margin: 4%;
   text-align: left;
 }
 
@@ -149,59 +127,214 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-.menu{
-text-align: right ;
-margin-right: 20px;
+
+
+
+
+
+ #RockefellerParkLoop{
+  fill:none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+#RockefellerParkLoop:hover {
+  stroke: red
+}
+
+#BigLoopAtProspectPark{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
 
 }
 
-/* Style The Dropdown Button */
-.dropbtn {
-  border-radius: 25px;
-  background: #000000;
-  padding: 5px; 
-  width: 150px;
-  height:fit-content;
-  text-align: center;
-  color: #f1f1f1;
+#BigLoopAtProspectPark:hover{
+  stroke: blue
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  color: #f1f1f1;
- 
+#BrooklynBridgeLoop{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+#BrooklynBridgeLoop:hover{
+  stroke: blue
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+#HudsonRun{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+#HudsonRun:hover{
+  stroke:blue
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  filter: invert(100%);
-  transition-duration: 0.5s;
- }
+#LittleIslandtoOneWorldTrade{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+}
+
+#LittleIslandtoOneWorldTrade:hover{
+  stroke:red
+}
+
+#HudsonRiverto5av11st{
+  fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+}
+#HudsonRiverto5av11st:hover{
+  stroke:green
+}
+
+#VesseltoHudsonRiverGreenwayLoop{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+}
+
+#VesseltoHudsonRiverGreenwayLoop:hover{
+  stroke:blue
+}
+
+#ThreeLoopsInCentralPark{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  
+}
+
+#ThreeLoopsInCentralPark:hover{
+  stroke:red
+}
+
+#ThreeLoopsatShumanRunningTrack{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  
+}
+
+#ThreeLoopsatShumanRunningTrack:hover{
+  stroke:red
+
+}
+
+#SmallLoopAtProspectPark{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px; 
+}
+
+#SmallLoopAtProspectPark:hover{
+  stroke:blue
+}
+
+#ThreeLoopsInCentralPark{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+}
+
+#ThreeLoopsInCentralPark:hover{
+  stroke:red
+}
+
+#StuyvesantSquareParktoWilliansburgBridgeLoop{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+}
+
+#StuyvesantSquareParktoWilliansburgBridgeLoop:hover{
+  stroke:red
+}
+
+#RooseveltIsland{
+  fill: none;
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  
+}
+
+#RooseveltIsland:hover{
+  stroke:red
+}
+
+#RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
+  fill: none;
+   stroke: black;
+   stroke-miterlimit: 10;
+   stroke-width: 5px;
+
+   }
+   
+      
+ #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover {
+   stroke: red
+  }
+
+  #PebbleBeachtoBrooklynBridgeParkLoop{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+
+  }
+
+  #PebbleBeachtoBrooklynBridgeParkLoop:hover{
+    stroke: blue
+  }
+
+  #OneLoopatShumanRunningTrack{
+    fill: none;
+      stroke: black;
+      stroke-miterlimit: 10;
+      stroke-width: 5px;
+  }
+  
+  #OneLoopatShumanRunningTrack:hover{
+    stroke: green
+  }
+
+  #OneLoopatCentralPark{
+    fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+      
+    }
+  
+    #OneLoopatCentralPark:hover{
+      stroke: green
+    }
+
+    #MadisonSquareParktoEastRiverParkField8{
+      fill: none;
+      stroke: black;
+      stroke-miterlimit: 10;
+      stroke-width: 5px;
+    }
+  
+    #MadisonSquareParktoEastRiverParkField8:hover{
+      stroke:blue
+    }

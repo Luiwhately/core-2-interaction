@@ -279,9 +279,28 @@
     transform: rotate(80deg);
   }
 
-  #MadisonSquareParktoEastRiverParkField:hover{
+  #MadisonSquareParktoEastRiverParkField8:hover{
     stroke:blue
   }
+
+#HudsonRiverto5av11st{
+  fill: none;
+    stroke: black;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    position: absolute;
+    top:-4%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+#HudsonRiverto5av11st:hover{
+  stroke:green
+}
+
+
 
   #LittleIslandtoOneWorldTrade{
     fill: none;
@@ -346,7 +365,7 @@
     stroke: green
   }
 
-  #Layer_1{
+  #RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
     fill: none;
      stroke: black;
      stroke-miterlimit: 10;
@@ -357,7 +376,7 @@
      }
      
         
-   #Layer_1:hover {
+   #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover {
      stroke: red
     }
 
