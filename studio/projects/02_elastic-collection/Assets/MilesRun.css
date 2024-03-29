@@ -24,7 +24,9 @@
       width: 100%;
       height:fit-content;
       text-align: center;
-      margin: 8%;
+      margin-left: 0%;
+      border-color: #ffffff;
+      border-width: 2em;
     }
 
       .trackPageLink:hover{
@@ -36,6 +38,7 @@
     text-decoration: none;
     font-family:serif;
     color:#f1f1f1;
+    
   }
   }
 
@@ -53,6 +56,7 @@
     position:fixed;
     margin-top: 5%;
     max-width: 20%;
+    margin-left: 0%;
   
   }
 
@@ -140,7 +144,9 @@
 }
 
 #RockefellerParkLoop:hover {
-  stroke: red
+  stroke: red;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #BigLoopAtProspectPark{
@@ -152,7 +158,9 @@
 }
 
 #BigLoopAtProspectPark:hover{
-  stroke: blue
+  stroke: blue;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #BrooklynBridgeLoop{
@@ -163,7 +171,9 @@
 }
 
 #BrooklynBridgeLoop:hover{
-  stroke: blue
+  stroke: blue;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #HudsonRun{
@@ -175,7 +185,9 @@
 }
 
 #HudsonRun:hover{
-  stroke:blue
+  stroke:blue;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #LittleIslandtoOneWorldTrade{
@@ -186,7 +198,9 @@
 }
 
 #LittleIslandtoOneWorldTrade:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #HudsonRiverto5av11st{
@@ -196,7 +210,9 @@
     stroke-width: 5px;
 }
 #HudsonRiverto5av11st:hover{
-  stroke:green
+  stroke:green;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #VesseltoHudsonRiverGreenwayLoop{
@@ -207,7 +223,9 @@
 }
 
 #VesseltoHudsonRiverGreenwayLoop:hover{
-  stroke:blue
+  stroke:blue;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #ThreeLoopsInCentralPark{
