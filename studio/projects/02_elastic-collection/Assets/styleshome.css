@@ -1,18 +1,19 @@
-.html{
-  overflow:clip;
+html{
+ overflow: clip;
 }
-.body {
-    background-color: #fff;
+body {
+    background-color: #e6e6e6;
     margin-left: 0%;
     margin-right: 0%;
-    width: 80%;
-
+    width: 100%;
+  
   }
-.containerMap{
-  width: 80%;
-  margin-left: 20%;
-  margin-right: 0%;
-}
+
+  .containerMap{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
 .logo{
   width: 8%;
@@ -23,21 +24,21 @@
   position:fixed;
 }
   
-  #VesseltoHudsonRiverGreenwayLoop{
-    fill: none;
-    stroke: black;
-    stroke-width: 0.2em;
-    position: absolute;
-    margin-top:0%;
-    margin-left:30%;
-    max-width: 50%;
-   
-  }
+#VesseltoHudsonRiverGreenwayLoop {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.2em;
+  position: absolute;
+  margin-top: -6%;
+  margin-left: 50%;
+  max-width: 50%;
+  transform: rotate(15deg);
+}
 
-  #VesseltoHudsonRiverGreenwayLoop:hover{
-    stroke:rgb(48, 48, 125);
-    cursor: pointer;
-  }
+#VesseltoHudsonRiverGreenwayLoop:hover {
+  stroke: rgb(48, 48, 125);
+  cursor: pointer;
+}
 
 
   #ThreeLoopsInCentralPark{
@@ -160,7 +161,7 @@
   stroke: black;
   stroke-width: 0.2em;
   position: absolute;
-  top:20%;
+  top:40%;
   left: 66%;
   transform: rotate(280deg);
   max-width: 40%;
@@ -227,8 +228,8 @@
     stroke: black;
     stroke-width: 0.2em;
     position: absolute;
-    top:10%;
-    left: 60%;
+    top:30%;
+    left: 55%;
     transform: rotate(60deg);
     max-width:40%;
   }
@@ -341,7 +342,7 @@
       margin-left: 30%;
     }
   
-
+  
   
  
 
