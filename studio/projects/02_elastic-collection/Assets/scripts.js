@@ -4,7 +4,7 @@ var containerElement = document.querySelector('.Container');
 // should I do that for all the filters (miles, review, starting location and looped
 
 //insert single track function
-function insertrack(track) {
+function insertTrack(track) {
 
 
 	containerElement.innerHTML += `
@@ -115,9 +115,9 @@ var RooseveltIslandTracks = tracks.filter((track) => {
 //DEFINING FUNCTIONS
 
 //Miles function
-function getTracksWithMiles(miles) {
+function getTracksWithMilesFunction(miles) {
         var getTracksWithMiles = tracks.filter((tracks) => {
-        return tracks ['miles'].include(miles);
+        return tracks ['miles'].includes(miles);
     })
 
       
@@ -125,9 +125,9 @@ function getTracksWithMiles(miles) {
 }
 
 //Review  function
-function getTracksWithReview(review) {
+function getTracksWithReviewFunction(review) {
     var getTracksWithReview = tracks.filter((tracks) => {
-    return tracks ['review'].include(review);
+    return tracks ['review'].includes(review);
     })
 
      
@@ -136,7 +136,7 @@ function getTracksWithReview(review) {
 
 
 //Starting Location function
-function getTracksWithStartingLocation(startingLocation) {
+function getTracksWithStartingLocationFunction(startingLocation) {
 	var startingLocation = tracks.filter((tracks) => {
 	return tracks['startingLocation'].includes(startingLocation);
 	})
@@ -147,7 +147,7 @@ function getTracksWithStartingLocation(startingLocation) {
 
 
 //Looped function
-function getTracksWithLooped(looped) {
+function getTracksWithLoopedFunction(looped) {
 	var looped = tracks.filter((tracks) => {
 	return tracks['looped'].includes(looped);
 	})
@@ -160,12 +160,12 @@ function getTracksWithLooped(looped) {
 
 // miles button
 
-var MilesButtonElements = document.querySelectorAll('.milesControl input');
+var milesButtonElements = document.querySelectorAll('.milesControl input');
 
 milesButtonElements.forEach((button) => {
     button.addEventListener('click', (event) => {
         var miles = event.target.value;
-        var tracks = getTracksWithMiles(miles);
+        var tracks = getTracksWithMilesFunction(miles);
         insertTracks(tracks);
     });
 });
@@ -177,7 +177,7 @@ var reviewControlElements = document.querySelectorAll('.reviewControl input');
 reviewControlElements.forEach((button) => {
 	button.addEventListener('click', (event) => {
 		var review = event.target.value;
-		var tracks = getTracksWithReview(review);
+		var tracks = getTracksWithReviewFunction(review);
 		insertTracks(tracks);
 	});
 });
@@ -189,7 +189,7 @@ var startingLocationControlElements = document.querySelectorAll('.startingLocati
 startingLocationControlElements.forEach((button) => {
 	button.addEventListener('click', (event) => {
 		var startingLocation = event.target.value;
-		var tracks = getTracksWithStartingLocation(startingLocation);
+		var tracks = getTracksWithStartingLocationFunction(startingLocation);
 		insertTracks(tracks);
 	});
 });
@@ -201,11 +201,11 @@ var loopedControlsElements = document.querySelectorAll('.looped input');
 loopedControlsElements.forEach((button) => {
 	button.addEventListener('click', (event) => {
 		var  looped = event.target.value;
-		var tracks = getTracksWithLooped(looped);
+		var tracks = getTracksWithLoopedFunction(looped);
 		insertTracks(tracks);
 	});
 });
 
 
 
-console.log(data);
+console.log(data.js);
