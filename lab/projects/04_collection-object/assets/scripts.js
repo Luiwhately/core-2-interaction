@@ -1,22 +1,6 @@
 //select our container element
 var containerElement = document.querySelector('.Container');
 
-//select track function definition
-function insertTracks(tracks) {
-
-	//select the track element 
-	var milesElement = document.querySelector(`.miles[data-miles="${ track.title }"]`);
-
-// for each metadata in the track...
-	track['miles'].forEach((miles) => {
-
-		//
-		milesElement.innerHTML += `
-			<div class="Tracks" style="background: ${ color }"></div>
-		`;
-	});
-}
-
 // should I do that for all the filters (miles, review, starting location and looped
 
 //insert single track function
@@ -99,31 +83,31 @@ var notloopedTracks = tracks.filter((track) => {
 //filter starting location
 
 var UpperEastTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Upper East;
+    return track['startingLocation'] == 'Upper East';
 })
 
 var UpperWestTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Upper West;
+    return track['startingLocation'] == 'Upper West';
 })
 
 var GramercyTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Gramercy Park;
+    return track['startingLocation'] == 'Gramercy Park';
 })
 
 var BrooklynTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Brooklyn;
+    return track['startingLocation'] == 'Brooklyn';
 })
 
 var LowerEastTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Lower East;
+    return track['startingLocation'] == 'Lower East';
 })
 
 var ChelseaTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Chelsea;
+    return track['startingLocation'] == 'Chelsea';
 })
 
 var RooseveltIslandTracks = tracks.filter((track) => {
-    return track['startingLocation'] == Roosevelt Island;
+    return track['startingLocation'] == 'Roosevelt Island';
 })
 
 
