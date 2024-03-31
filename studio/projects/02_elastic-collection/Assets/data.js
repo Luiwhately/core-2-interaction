@@ -2,7 +2,7 @@
 var tracks = [
     {
         startingLocation: 'Gramercy Park',
-        image: '144E24thSttoRockefellerPark.png',
+        image: '144E24thSttoRockefellerPark.svg',
         miles: 5,
         review: 5,
         looped: true,
@@ -10,7 +10,7 @@ var tracks = [
     },
     {
         startingLocation: 'Gramercy Park',
-        image: '144E24thSttoRockefellerParkLoop.png',
+        image: '144E24thSttoRockefellerParkLoop.svg',
         miles: 6,
         review: 4,
         looped: true,
@@ -18,7 +18,7 @@ var tracks = [
     },
     {
         startingLocation: 'Gramercy Park',
-        image: '144E24thtoCentralParkLoop.png',
+        image: '144E24thtoCentralParkLoop.svg',
         miles: 10.3,
         review: 3,
         looped: true,
@@ -26,7 +26,7 @@ var tracks = [
     },
     {
         startingLocation: 'Brooklyn',
-        image: 'BigLoopAtProspectPark.png',
+        image: 'BigLoopAtProspectPark.svg',
         miles: 3.6,
         review: 5,
         looped: true,
@@ -34,7 +34,7 @@ var tracks = [
     },
     {
         startingLocation: 'Chelsea',
-        image: 'LittleIslandtoOneWorldTrade.png',
+        image: 'LittleIslandtoOneWorldTrade.svg',
         miles: 4.2,
         review: 4,
         looped: true,
@@ -42,7 +42,7 @@ var tracks = [
     },
     {
         startingLocation: 'Gramercy Park',
-        image: 'MadisonSquareParktoEastRiverParkField8.png',
+        image: 'MadisonSquareParktoEastRiverParkField8.svg',
         miles: 4.8,
         review: 3,
         looped: false,
@@ -50,7 +50,7 @@ var tracks = [
     },
     {
         startingLocation: ['Upper West', 'Upper East'],
-        image: 'OneLoopatCentralPark.png',
+        image: 'OneLoopatCentralPark.svg',
         miles: 4.4,
         review: 4,
         looped: true,
@@ -58,7 +58,7 @@ var tracks = [
     },
     {
         startingLocation: ['Upper West', 'Upper East'],
-        image: 'OneLoopatShumanRunningTrack.png',
+        image: 'OneLoopatShumanRunningTrack.svg',
         miles: 1.6,
         review: 5,
         looped: true,
@@ -66,7 +66,7 @@ var tracks = [
     },
     {
         startingLocation: 'Brooklyn',
-        image: 'PebbleBeachtoBrooklynBridgeParkLoop.png',
+        image: 'PebbleBeachtoBrooklynBridgeParkLoop.svg',
         miles: 2.2,
         review: 4,
         looped: true,
@@ -74,7 +74,7 @@ var tracks = [
     },
     {
         startingLocation: 'Upper West',
-        image: 'RiversideParkFromEmpireStateTrailtoColumbiaUniversity.png',
+        image: 'RiversideParkFromEmpireStateTrailtoColumbiaUniversity.svg',
         miles: 7.8,
         review: 4,
         looped: true,
@@ -82,7 +82,7 @@ var tracks = [
     },
     {
         startingLocation: 'Roosevelt Island',
-        image: 'RooseveltIsland.png',
+        image: 'RooseveltIsland.svg',
         miles: 4.5,
         review: 5,
         looped: true,
@@ -90,23 +90,23 @@ var tracks = [
     },
     {
         startingLocation: 'Brooklyn',
-        image: 'SmallLoopAtProspectPark.png',
-        miles: 2.2,
+        image: 'SmallLoopAtProspectPark.svg',
+        miles: 2,
         review: 5,
         looped: true,
         
     },
     {
         startingLocation: 'Lower East',
-        image: 'StuyvesantSquareParktoWilliansburgBridgeLoop.png',
-        miles: 5.4,
-        review: 3,
+        image: 'StuyvesantSquareParktoWilliansburgBridgeLoop.svg',
+        miles: 6,
+        review: 4,
         looped: true,
         
     },
     {
         startingLocation: ['Upper West', 'Uper East'],
-        image: 'ThreeLoopsatShumanRunningTrack.png',
+        image: 'ThreeLoopsatShumanRunningTrack.svg',
         miles: 4.8,
         review: 3,
         looped: true,
@@ -114,7 +114,7 @@ var tracks = [
     },
     {
         startingLocation: ['Upper West', 'Uper East'],
-        image: 'ThreeLoopsInCentralPark.png',
+        image: 'ThreeLoopsInCentralPark.svg',
         miles: 13,
         review: 4,
         looped: true,
@@ -122,7 +122,7 @@ var tracks = [
     },
     {
         startingLocation: ['Chelsea'],
-        image: 'VesseltoHudsonRiverGreenwayLoop.png',
+        image: 'VesseltoHudsonRiverGreenwayLoop.svg',
         miles: 3.8,
         review: 3,
         looped: true,

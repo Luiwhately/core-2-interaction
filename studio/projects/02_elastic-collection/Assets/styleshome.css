@@ -1,3 +1,58 @@
+.noticia-text-regular {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noticia-text-bold {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noticia-text-regular-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noticia-text-bold-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 html{
  overflow: clip;
 }
@@ -33,6 +88,7 @@ body {
   margin-left: 50%;
   max-width: 50%;
   transform: rotate(15deg);
+  pointer-events: visibleStroke;
 }
 
 #VesseltoHudsonRiverGreenwayLoop:hover {
@@ -50,6 +106,7 @@ body {
     margin-left:-18%;
     transform: rotate(80deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #ThreeLoopsInCentralPark:hover{
@@ -66,6 +123,7 @@ body {
     left:60%;
     transform: rotate(0deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #ThreeLoopsatShumanRunningTrack:hover{
@@ -82,6 +140,7 @@ body {
     left:45%;
     transform: rotate(10deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #StuyvesantSquareParktoWilliansburgBridgeLoop:hover{
@@ -99,6 +158,7 @@ body {
     margin-left:15%;
     transform: rotate(300deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   
   }
 
@@ -117,6 +177,7 @@ body {
     margin-left:-8%;
     transform: rotate(60deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #RooseveltIsland:hover{
@@ -132,6 +193,7 @@ body {
     top:0%;
     left:3%;
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover{
@@ -149,6 +211,7 @@ body {
     transform: translate(-50%, -50%);
     transform: rotate(60deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #PebbleBeachtoBrooklynBridgeParkLoop:hover{
@@ -165,6 +228,7 @@ body {
   left: 66%;
   transform: rotate(280deg);
   max-width: 40%;
+  pointer-events: visibleStroke;
 }
 
 #OneLoopatShumanRunningTrack:hover{
@@ -182,6 +246,7 @@ body {
   left: 56%;
   transform: rotate(100deg);
   max-width: 40%;
+  pointer-events: visibleStroke;
   }
 
   #OneLoopatCentralPark:hover{
@@ -198,6 +263,7 @@ body {
     left: 7%;
     transform: rotate(80deg);
     max-width: 40%;
+    pointer-events: visibleStroke;
   }
 
   #MadisonSquareParktoEastRiverParkField8:hover{
@@ -213,6 +279,7 @@ body {
     top:4%;
     left:10%;
     max-width:40%;
+    pointer-events: visibleStroke;
 }
 
 
@@ -232,6 +299,7 @@ body {
     left: 55%;
     transform: rotate(60deg);
     max-width:40%;
+    pointer-events: visibleStroke;
   }
 
   #LittleIslandtoOneWorldTrade:hover{
@@ -247,7 +315,7 @@ body {
     top:20%;
     left: 20%;
     max-width:40%;
-  
+    pointer-events: visibleStroke;
   }
 
   #HudsonRun:hover{
@@ -263,6 +331,7 @@ body {
     top:22%;
     left: 0%;
     max-width:40%;
+    pointer-events: visibleStroke;
   }
 
   #BrooklynBridgeLoop:hover{
@@ -279,6 +348,7 @@ body {
     left: 22%;
     transform: rotate(145deg);
     max-width:40%;
+    pointer-events: visibleStroke;
   }
 
   #BigLoopAtProspectPark:hover{
@@ -294,6 +364,7 @@ body {
      top:2%;
      left:40%;
      max-width:40%;
+     pointer-events: visibleStroke;
      }
      
         
@@ -311,6 +382,7 @@ body {
       left:47%;
       max-width:40%;
       transform: rotate(90deg);
+      pointer-events: visibleStroke;
       
     }
   
@@ -321,29 +393,39 @@ body {
 
     /* Popup container */
 .popup {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 37%;
+  width: 20%;
+  height: fit-content;
+  display:block;
   cursor: pointer;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.752);
+  text-align: center;
+  border-radius: 1em;
+  text-align: center;
+  padding: 3%;
+  color:rgb(245, 245, 245);
+  font-family: "Rajdhani", sans-serif;
+
 }
 
-    .popup .popuptext {
-      visibility: hidden;
-      width: 50%;
-      background-color: #555;
-      color: #fff;
-      text-align: center;
-      border-radius: 1em;
-      padding: 4% 0;
-      position: absolute;
-      z-index: 10;
-      bottom: 125%;
-      left: 50%;
-      margin-left: 30%;
-    }
+.popup:hover{
+ filter: invert(100%);
+  transition: 0.5s;
+}
   
-  
-  
+
+  .takeTheChallenge{
+    background-color: #e6e6e6;
+    color:black;
+    border-radius: 0%;
+    padding: 2%;
+    margin: 4%;
+    text-align: left;
+    font-family: "Rajdhani", sans-serif;
+  }
+
  
 
   

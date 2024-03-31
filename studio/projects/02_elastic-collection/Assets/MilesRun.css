@@ -1,3 +1,57 @@
+.noticia-text-regular {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noticia-text-bold {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noticia-text-regular-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noticia-text-bold-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 
 .collection {
@@ -27,6 +81,7 @@
       margin-left: 0%;
       border-color: #ffffff;
       border-width: 2em;
+      font-family:"MuseoModerno", sans-serif;
     }
 
       .trackPageLink:hover{
@@ -36,7 +91,7 @@
     
   .tracksButton{
     text-decoration: none;
-    font-family:serif;
+    font-family: "Rajdhani", sans-serif;
     color:#f1f1f1;
     
   }
@@ -54,7 +109,7 @@
 
   .navegationContainer{
     position:fixed;
-    margin-top: 5%;
+    margin-top: 3.5%;
     max-width: 20%;
     margin-left: 0%;
   
@@ -64,12 +119,13 @@
     border-radius: 0%;
     background: #fdfdfd;
     border-color: #000000;
+    color:#000000;
     padding: 2%; 
     width: 100%;
     height:fit-content;
     text-align: center;
-    color:#000000;
     margin-bottom: 10%;
+    font-family:"MuseoModerno", sans-serif;
   }
   
 
@@ -83,6 +139,7 @@
   text-align: center;
   color:#000000;
   margin-bottom: 10%;
+  font-family:"MuseoModerno", sans-serif;
  }
  
 
@@ -97,6 +154,7 @@
   text-align: center;
   color:#000000;
   margin-bottom: 10%;
+  font-family:"MuseoModerno", sans-serif;
  }
 
 
@@ -109,6 +167,7 @@
   height:fit-content;
   text-align: center;
   color:#000000;
+  font-family:"MuseoModerno", sans-serif;
  }
 
 .navButton{
@@ -116,6 +175,7 @@
   padding: 2%;
   margin: 4%;
   text-align: left;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .arrow {
@@ -141,12 +201,13 @@
   stroke: black;
   stroke-miterlimit: 10;
   stroke-width: 4px;
+  
 }
 
 #RockefellerParkLoop:hover {
   stroke: red;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #BigLoopAtProspectPark{
@@ -160,7 +221,7 @@
 #BigLoopAtProspectPark:hover{
   stroke: blue;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #BrooklynBridgeLoop{
@@ -173,7 +234,7 @@
 #BrooklynBridgeLoop:hover{
   stroke: blue;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #HudsonRun{
@@ -187,7 +248,7 @@
 #HudsonRun:hover{
   stroke:blue;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #LittleIslandtoOneWorldTrade{
@@ -200,7 +261,7 @@
 #LittleIslandtoOneWorldTrade:hover{
   stroke:red;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #HudsonRiverto5av11st{
@@ -212,7 +273,7 @@
 #HudsonRiverto5av11st:hover{
   stroke:green;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #VesseltoHudsonRiverGreenwayLoop{
@@ -225,7 +286,7 @@
 #VesseltoHudsonRiverGreenwayLoop:hover{
   stroke:blue;
   background-color: #f5f2f2a3;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #ThreeLoopsInCentralPark{
@@ -237,7 +298,9 @@
 }
 
 #ThreeLoopsInCentralPark:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.3s;
 }
 
 #ThreeLoopsatShumanRunningTrack{
@@ -249,7 +312,9 @@
 }
 
 #ThreeLoopsatShumanRunningTrack:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.3s;
 
 }
 
@@ -261,7 +326,9 @@
 }
 
 #SmallLoopAtProspectPark:hover{
-  stroke:blue
+  stroke:blue;
+  background-color: #f5f2f2a3;
+  transition: 0.3s;
 }
 
 #ThreeLoopsInCentralPark{
@@ -272,7 +339,9 @@
 }
 
 #ThreeLoopsInCentralPark:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.3s;
 }
 
 #StuyvesantSquareParktoWilliansburgBridgeLoop{
@@ -283,7 +352,9 @@
 }
 
 #StuyvesantSquareParktoWilliansburgBridgeLoop:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.5s;
 }
 
 #RooseveltIsland{
@@ -295,7 +366,9 @@
 }
 
 #RooseveltIsland:hover{
-  stroke:red
+  stroke:red;
+  background-color: #f5f2f2a3;
+  transition: 0.3s;
 }
 
 #RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
@@ -308,7 +381,9 @@
    
       
  #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover {
-   stroke: red
+   stroke: red;
+   background-color: #f5f2f2a3;
+   transition: 0.3s;
   }
 
   #PebbleBeachtoBrooklynBridgeParkLoop{
@@ -320,7 +395,9 @@
   }
 
   #PebbleBeachtoBrooklynBridgeParkLoop:hover{
-    stroke: blue
+    stroke: blue;
+    background-color: #f5f2f2a3;
+    transition: 0.3s;
   }
 
   #OneLoopatShumanRunningTrack{
@@ -331,8 +408,11 @@
   }
   
   #OneLoopatShumanRunningTrack:hover{
-    stroke: green
+    stroke: green;
+    background-color: #f5f2f2a3;
+    transition: 0.3s;
   }
+
 
   #OneLoopatCentralPark{
     fill: none;
@@ -343,7 +423,9 @@
     }
   
     #OneLoopatCentralPark:hover{
-      stroke: green
+      stroke: green;
+      background-color: #f5f2f2a3;
+      transition: 0.3s;
     }
 
     #MadisonSquareParktoEastRiverParkField8{
@@ -354,5 +436,8 @@
     }
   
     #MadisonSquareParktoEastRiverParkField8:hover{
-      stroke:blue
+      stroke:blue;
+      background-color: #f5f2f2a3;
+      transition: 0.3s;
     }
+

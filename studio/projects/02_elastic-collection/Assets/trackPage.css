@@ -1,0 +1,129 @@
+html{
+    overflow: hidden;
+}
+.museomoderno-bodytext {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1em;
+  font-style: normal;
+}
+
+.noticia-text-regular {
+    font-family: "Noticia Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .noticia-text-bold {
+    font-family: "Noticia Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .noticia-text-regular-italic {
+    font-family: "Noticia Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .noticia-text-bold-italic {
+    font-family: "Noticia Text", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.EmbededMap{
+    position: relative;
+    margin-left: 17%;
+    margin-top: 4.5%;
+}
+
+.logo{
+    width: 8%;
+    height: auto;
+    position: sticky;
+    margin-left: 3.5%;
+    margin-top: 1%;
+    position:fixed;
+  }
+
+  .trackName{
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 22%;
+    width: 15%;
+    height: fit-content;
+    font-family: "MuseoModerno", sans-serif;
+  }
+
+  .TrackInformation{
+    border-color: black;
+    border-width: 10%;
+    width:25%;
+    height: fit-content;
+    position: fixed;
+    margin-left: 73.5%;
+    margin-top: -41%;
+    margin-right: 2%;
+    font-family: "Rajdhani", sans-serif;
+    
+  }
+
+  .h2{
+    font-family: "MuseoModerno", sans-serif;
+  }
+
+  .p{
+ font-family: "Rajdhani", sans-serif;
+ margin-right: 1%;
+  }
+
+  .back{
+    border: 3%;
+    border-radius: 0%;
+    background: #fdfdfd;
+    border-color: #000000;
+    color:#000000;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:"MuseoModerno", sans-serif;
+  
+}
+
+.back:hover{
+    filter: invert(100%);
+    transition-duration: 0.5s;
+  }
