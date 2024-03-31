@@ -19,7 +19,7 @@ var tracks = [
     {
         startingLocation: 'Gramercy Park',
         image: '144E24thtoCentralParkLoop.svg',
-        miles: 10.3,
+        miles: 9,
         review: 3,
         looped: true,
     },
@@ -141,7 +141,7 @@ var tracks = [
         miles: 6.1,
         review: 3,
         looped: true,
-    }
+    },
     {
         startingLocation: ['Lower East'],
         image: 'BrooklynBridgeLoop.svg',
