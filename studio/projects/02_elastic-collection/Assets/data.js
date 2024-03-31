@@ -75,7 +75,7 @@ var tracks = [
     {
         startingLocation: 'Upper West',
         image: 'RiversideParkFromEmpireStateTrailtoColumbiaUniversity.svg',
-        miles: 7.8,
+        miles: 7,
         review: 4,
         looped: true,
         
@@ -108,7 +108,7 @@ var tracks = [
         startingLocation: ['Upper West', 'Uper East'],
         image: 'ThreeLoopsatShumanRunningTrack.svg',
         miles: 4.8,
-        review: 3,
+        review: 4,
         looped: true,
         
     },
