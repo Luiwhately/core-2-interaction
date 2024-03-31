@@ -22,7 +22,6 @@ var tracks = [
         miles: 10.3,
         review: 3,
         looped: true,
-        
     },
     {
         startingLocation: 'Brooklyn',
@@ -35,7 +34,7 @@ var tracks = [
     {
         startingLocation: 'Chelsea',
         image: 'LittleIslandtoOneWorldTrade.svg',
-        miles: 4.2,
+        miles: 4.3,
         review: 4,
         looped: true,
         
@@ -43,7 +42,7 @@ var tracks = [
     {
         startingLocation: 'Gramercy Park',
         image: 'MadisonSquareParktoEastRiverParkField8.svg',
-        miles: 4.8,
+        miles: 4.5,
         review: 3,
         looped: false,
         
@@ -128,5 +127,27 @@ var tracks = [
         looped: true,
         
     },
+    {
+        startingLocation: ['Lower East'],
+        image: '144E24thtoHudsonRiverto5Av11St.svg',
+        miles: 4.7,
+        review: 4,
+        looped: false,
+        
+    },
+    {
+        startingLocation: ['Lower East'],
+        image: 'HudsonRun.svg',
+        miles: 6.1,
+        review: 3,
+        looped: true,
+    }
+    {
+        startingLocation: ['Lower East'],
+        image: 'BrooklynBridgeLoop.svg',
+        miles: 3.9,
+        review: 4,
+        looped: true,
+    }
 
 ];
