@@ -1,5 +1,12 @@
 html{
-    overflow: hidden;
+
+}
+
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [class="html"] {
+   overflow: scroll;
+  }
 }
 .museomoderno-bodytext {
   font-family: "MuseoModerno", sans-serif;
@@ -7,30 +14,6 @@ html{
   font-weight: 1em;
   font-style: normal;
 }
-
-.noticia-text-regular {
-    font-family: "Noticia Text", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .noticia-text-bold {
-    font-family: "Noticia Text", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .noticia-text-regular-italic {
-    font-family: "Noticia Text", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .noticia-text-bold-italic {
-    font-family: "Noticia Text", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
 
   .rajdhani-light {
     font-family: "Rajdhani", sans-serif;
@@ -68,6 +51,17 @@ html{
     margin-left: 17%;
     margin-top: 4.5%;
 }
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [class="EmbededMap"] {
+    max-width: 98%;
+    min-width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; 
+  margin-top: 30%;
+  }
+}
+
 
 .logo{
     width: 8%;
@@ -78,6 +72,13 @@ html{
     position:fixed;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class="logo"] {
+      width: 10%;
+    }
+  }
+
   .trackName{
     position: fixed;
     margin-left: 1%;
@@ -86,6 +87,16 @@ html{
     height: fit-content;
     font-family: "MuseoModerno", sans-serif;
   }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class="trackName"] {
+      width: 100%;
+      font-size: 1.5em;
+      margin-top: 17%;
+      margin-left: 4%;
+    }
+  } 
 
   .TrackInformation{
     border-color: black;
@@ -99,6 +110,16 @@ html{
     font-family: "Rajdhani", sans-serif;
     
   }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class="trackInformation"] {
+      width: 100%;
+      font-size: 1em;
+      margin-top: 110%;
+      margin-left: 4%;
+    }
+  } 
 
   .h2{
     font-family: "MuseoModerno", sans-serif;
