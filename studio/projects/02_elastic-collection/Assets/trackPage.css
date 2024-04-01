@@ -109,7 +109,7 @@ html{
  margin-right: 1%;
   }
 
-  .back{
+  #back{
     border: 3%;
     border-radius: 0%;
     background: #fdfdfd;
@@ -117,13 +117,15 @@ html{
     color:#000000;
     padding: 2%;
     text-align: center;
-    text-decoration: none;
+    text-decoration:none;
     cursor: pointer;
     font-family:"MuseoModerno", sans-serif;
   
 }
 
-.back:hover{
+#back:hover{
     filter: invert(100%);
     transition-duration: 0.5s;
+    text-decoration:none;
+  
   }
