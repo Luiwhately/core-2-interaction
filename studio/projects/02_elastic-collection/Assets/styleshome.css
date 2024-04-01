@@ -407,6 +407,7 @@ body {
   padding: 3%;
   color:rgb(245, 245, 245);
   font-family: "Rajdhani", sans-serif;
+  text-decoration: none;
 
 }
 
@@ -424,6 +425,7 @@ body {
     margin: 4%;
     text-align: left;
     font-family: "Rajdhani", sans-serif;
+    text-decoration: none;
   }
 
  
