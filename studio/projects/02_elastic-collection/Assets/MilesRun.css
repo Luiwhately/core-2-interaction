@@ -32,7 +32,7 @@
   display: grid;
   grid-auto-columns: max-content;
   grid-auto-flow: dense;
-  grid-auto-rows: minmax(20%, auto);
+  grid-auto-rows: minmax(20%, 4%);
   grid-gap: 2%;
   border: 1% black;
   grid-template-columns: repeat(3, 33%);

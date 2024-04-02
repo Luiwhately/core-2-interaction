@@ -3,11 +3,11 @@ var tracks = [
     {
         startingLocation: 'Gramercy Park',
         image: '144E24thSttoRockefellerParkLoop.svg',
-        miles: 5,
+        miles: 7,
         review: 5,
         looped: true,
         link: "144E24thSttoRockefellerParkLoop.html",
-        title: "144E 24th St to Rockefeller Park Loop",
+        title: "Madison Square Park to Rockefeller Park Loop",
     },
     {
         startingLocation: 'Gramercy Park',
