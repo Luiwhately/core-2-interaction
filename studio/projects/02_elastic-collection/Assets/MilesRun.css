@@ -29,288 +29,310 @@
 }
 
 .collection {
-    display: grid;
-    grid-auto-columns: max-content;
-    grid-auto-flow: dense;
-    grid-auto-rows: minmax(20%, auto);
-    grid-gap: 2%;
-    border: 1% black;
-    grid-template-columns: repeat(3, 33%);
-      max-width: 70%;
-      margin-left:24%;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      text-decoration: none;
-  }
-
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="collection"] {
-      max-width: 100%;
-      margin-top: 8%;
-      font-size: 0.8em;
-      margin-left: 0%;
-      margin-right:1%;
-      grid-template-columns: repeat(2, 48%);
-      grid-gap: 4%;
-      
-    }
-
-  }
-.imageTrack{
-height: 60%;
-width:100%;
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(20%, auto);
+  grid-gap: 2%;
+  border: 1% black;
+  grid-template-columns: repeat(3, 33%);
+  max-width: 70%;
+  margin-left: 24%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-decoration: none;
 }
 
-  .tracks {
-    
+@media only screen and (max-width: 1170px) {
 
-    .trackPageLink{
-      background: #000000;
-      padding: 2%; 
-      width: 100%;
-      height:fit-content;
-      text-align: center;
-      margin-left: 0%;
-      border-color: #ffffff;
-      border-width: 2em;
-      font-family:"MuseoModerno", sans-serif;
-      text-decoration: none;
-    }
+  /* For mobile phones: */
+  [class="collection"] {
+    max-width: 92%;
+    margin-top: 5%;
+    font-size: 0.8em;
+    margin-left: 6%;
+    margin-right: 0%;
+    grid-template-columns: repeat(2, 44%);
+    grid-gap: 3%;
 
-      .trackPageLink:hover{
-        filter: invert(100%);
-        transition-duration: 0.5s;
-      }
-    
-  .tracksButton{
+  }
+
+}
+
+.imageTrack {
+  height: 60%;
+  width: 100%;
+}
+
+.imageTrack:hover {
+  background-color: #cfcece3b;
+  transition: 0.3s;
+}
+
+.tracks {
+
+
+  .trackPageLink {
+    background: #000000;
+    padding: 2%;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-left: 0%;
+    border-color: #ffffff;
+    border-width: 2em;
+    font-family: "MuseoModerno", sans-serif;
+    text-decoration: none;
+  }
+
+  .trackPageLink:hover {
+    filter: invert(100%);
+    transition-duration: 0.5s;
+  }
+
+  .tracksButton {
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
-    color:#f1f1f1;
-    
-  }
-  }
-
-
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="tracksButton"] {
-      width: 80%;
-      height: fit-content;
-      text-decoration: none;
-    }
-  }
-
-  
-  .logo{
-    width: 3%;
-    height: auto;
-    margin-left: 1%;
-    margin-top: -1%;
-    position: absolute;
+    color: #f1f1f1;
 
   }
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="logo"] {
-      width: 10%;
-    
-    }
-  }
+}
 
-  @media only screen and (max-width: 600px){
-    /* For mobile phones: */
-    [class="logo"] {
-      width: 10%;
-    }
-  }
 
-  .navegationContainer{
-    position:fixed;
-    margin-top: 3.5%;
-    max-width: 20%;
-    margin-left: 0%;
-  
-  }
+@media only screen and (max-width: 1170px) {
 
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="navegationContainer"] {
-      width: 98%;
-      max-width: 80%;
-      margin-left: 15%;
-      position:relative;
-      font-size: 12px;
-      margin-top: 2%;
-      margin-bottom: 0%;
-  
-    }
-  } 
-
-  @media only screen and (max-width: 600px){
-    /* For mobile phones: */
-    [class="navegationContainer"] {
-      width: 98%;
-      max-width: 80%;
-      margin-left: 15%;
-      position:relative;
-      font-size: 12px;
-      margin-top: 2%;
-      margin-bottom: 0%;
-    }
-  }
-
-  .milesControl{
-  
-    background: #fdfdfd;
-    border-color: #000000;
-    color:#000000;
-    padding: 2%; 
-    width: 100%;
-    height:fit-content;
-    text-align: center;
-    margin-bottom: 10%;
-    font-family:"MuseoModerno", sans-serif;
-  }
-  
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="milesControl"] {
-      min-width:90%;
-      max-height: fit-content;
-      margin-left: 1%;
-      margin-right: 0%;
-      margin-top: 7%;
-      position:relative;
-      font-size: 12px;
-      margin-bottom: 2%;
-    }
-  }
-
-  @media only screen and (max-width: 600px){
-    /* For mobile phones: */
-    [class="milesControl"] {
-      width:fit-content;
-      max-width:20%;
-      max-height: fit-content;
-      margin: auto;
-      margin-left: 1%;
-      margin-right: 0%;
-      margin-top: 7%;
-      position:relative;
-      font-size: 12px;
-      margin-left: 0%;
-    }
-  }
-
- .reviewControl{
-  background: #ffffff;
-  border-color: #000000;
-  padding: 2%; 
-    width: 100%;
-  height:fit-content;
-  text-align: center;
-  color:#000000;
-  margin-bottom: 10%;
-  font-family:"MuseoModerno", sans-serif;
- }
- 
- @media only screen and (max-width: 1170px){
   /* For mobile phones: */
-  [class="reviewControl"] {
-    min-width:90%;
+  [class="tracksButton"] {
+    width: 80%;
+    height: fit-content;
+    text-decoration: none;
+  }
+}
+
+
+.logo {
+  width: 3%;
+  height: auto;
+  margin-left: 1%;
+  margin-top: -1%;
+  position: absolute;
+
+}
+
+@media only screen and (max-width: 1170px) {
+
+  /* For mobile phones: */
+  [class="logo"] {
+    width: 10%;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile phones: */
+  [class="logo"] {
+    width: 10%;
+  }
+}
+
+.navegationContainer {
+  position: fixed;
+  margin-top: 3.5%;
+  max-width: 20%;
+  margin-left: 0%;
+
+}
+
+@media only screen and (max-width: 1170px) {
+
+  /* For mobile phones: */
+  [class="navegationContainer"] {
+    width: 98%;
+    max-width: 80%;
+    margin-left: 15%;
+    position: relative;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile phones: */
+  [class="navegationContainer"] {
+    width: 98%;
+    max-width: 80%;
+    margin-left: 15%;
+    position: relative;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+}
+
+.milesControl {
+
+  background: #fdfdfd;
+  border-color: #000000;
+  color: #000000;
+  padding: 2%;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 10%;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+@media only screen and (max-width: 1170px) {
+
+  /* For mobile phones: */
+  [class="milesControl"] {
+    min-width: 90%;
     max-height: fit-content;
     margin-left: 1%;
     margin-right: 0%;
     margin-top: 7%;
-    position:relative;
+    position: relative;
     font-size: 12px;
     margin-bottom: 2%;
   }
 }
 
- @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
+  /* For mobile phones: */
+  [class="milesControl"] {
+    width: fit-content;
+    max-width: 20%;
+    max-height: fit-content;
+    margin: auto;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 7%;
+    position: relative;
+    font-size: 12px;
+    margin-left: 0%;
+  }
+}
+
+.reviewControl {
+  background: #ffffff;
+  border-color: #000000;
+  padding: 2%;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10%;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+@media only screen and (max-width: 1170px) {
+
   /* For mobile phones: */
   [class="reviewControl"] {
-    width:fit-content;
-    max-width:20%;
+    min-width: 90%;
+    max-height: fit-content;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 7%;
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile phones: */
+  [class="reviewControl"] {
+    width: fit-content;
+    max-width: 20%;
     max-height: fit-content;
     margin: auto;
     margin-left: 22%;
     margin-top: 7%;
     margin-right: 0%;
-    position:relative;
+    position: relative;
     font-size: 12px;
   }
 }
 
 
- .startingLocationControl{
+.startingLocationControl {
   background: #ffffff;
   border-color: #000000;
-  padding: 2%; 
-    width: 100%;
-  height:fit-content;
+  padding: 2%;
+  width: 100%;
+  height: fit-content;
   text-align: center;
-  color:#000000;
+  color: #000000;
   margin-bottom: 10%;
-  font-family:"MuseoModerno", sans-serif;
- }
+  font-family: "MuseoModerno", sans-serif;
+}
 
- @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
   /* For mobile phones: */
   [class="startingLocationControl"] {
-    width:50%;
-    max-width:20%;
+    width: 50%;
+    max-width: 20%;
     max-height: fit-content;
     margin-right: 0%;
     margin-top: -33.5%;
     margin-left: 47.5%;
-    position:relative;
+    position: relative;
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 1170px){
+
+@media only screen and (max-width: 1170px) {
+
   /* For mobile phones: */
   [class="startingLocationControl"] {
-    min-width:90%;
+    min-width: 90%;
     max-height: 20%;
     margin-left: 1%;
     margin-right: 0%;
     margin-top: 7%;
-    position:relative;
+    position: relative;
     font-size: 12px;
     margin-bottom: 2%;
   }
 }
 
- .loopedControls{
+.loopedControls {
   background: #ffffff;
   border-color: #000000;
-  padding: 2%; 
-    width: 100%;
-  height:fit-content;
+  padding: 2%;
+  width: 100%;
+  height: fit-content;
   text-align: center;
-  color:#000000;
-  font-family:"MuseoModerno", sans-serif;
- }
+  color: #000000;
+  font-family: "MuseoModerno", sans-serif;
+}
 
- @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
   /* For mobile phones: */
   [class="loopedControls"] {
-    width:20%;
-    max-width:20%;
+    width: 20%;
+    max-width: 20%;
     max-height: fit-content;
     margin: auto;
     margin-top: -70%;
     margin-left: 75%;
     margin-right: 0%;
-    position:relative;
+    position: relative;
     font-size: 12px;
-    
+
   }
 }
-.navButton{
+
+.navButton {
   border-radius: 0%;
   padding: 2%;
   margin: 4%;
@@ -319,7 +341,8 @@ width:100%;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1170px){
+@media only screen and (max-width: 1170px) {
+
   /* For mobile phones: */
   [class="navButton"] {
     margin: 0.2%;
@@ -330,8 +353,10 @@ width:100%;
     margin-top: 1%;
     text-decoration: none;
   }
-} 
-@media only screen and (max-width: 600px){
+}
+
+@media only screen and (max-width: 600px) {
+
   /* For mobile phones: */
   [class="navButton"] {
     margin: 0.2%;
@@ -343,6 +368,7 @@ width:100%;
   }
 }
 
+/* 
 #RockefellerParkLoop{
   fill:none;
   stroke: black;
@@ -587,4 +613,4 @@ width:100%;
       background-color: #f5f2f2a3;
       transition: 0.3s;
     }
-
+*/
