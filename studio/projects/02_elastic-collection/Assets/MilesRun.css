@@ -43,7 +43,7 @@
       text-decoration: none;
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 992px){
     /* For mobile phones: */
     [class="collection"] {
       max-width: 100%;
@@ -88,7 +88,7 @@
   }
 
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 992px){
     /* For mobile phones: */
     [class="tracksButton"] {
       width: 80%;
@@ -103,8 +103,15 @@
     height: auto;
     margin-left: 1%;
     margin-top: -1%;
-    position:fixed;
+    position: absolute;
 
+  }
+  @media only screen and (max-width: 992px){
+    /* For mobile phones: */
+    [class="logo"] {
+      width: 10%;
+    
+    }
   }
 
   @media only screen and (max-width: 600px){
@@ -121,6 +128,21 @@
     margin-left: 0%;
   
   }
+
+  @media only screen and (max-width: 992px){
+    /* For mobile phones: */
+    [class="navegationContainer"] {
+      width: 98%;
+      max-width: 80%;
+      margin-left: 15%;
+      position:relative;
+      font-size: 12px;
+      margin-top: 2%;
+      margin-bottom: 0%;
+  
+    }
+  } 
+
   @media only screen and (max-width: 600px){
     /* For mobile phones: */
     [class="navegationContainer"] {
@@ -147,6 +169,20 @@
     font-family:"MuseoModerno", sans-serif;
   }
   
+  @media only screen and (max-width: 992px){
+    /* For mobile phones: */
+    [class="milesControl"] {
+      min-width:90%;
+      max-height: fit-content;
+      margin-left: 1%;
+      margin-right: 0%;
+      margin-top: 7%;
+      position:relative;
+      font-size: 12px;
+      margin-bottom: 2%;
+    }
+  }
+
   @media only screen and (max-width: 600px){
     /* For mobile phones: */
     [class="milesControl"] {
@@ -175,6 +211,20 @@
   font-family:"MuseoModerno", sans-serif;
  }
  
+ @media only screen and (max-width: 992px){
+  /* For mobile phones: */
+  [class="reviewControl"] {
+    min-width:90%;
+    max-height: fit-content;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 7%;
+    position:relative;
+    font-size: 12px;
+    margin-bottom: 2%;
+  }
+}
+
  @media only screen and (max-width: 600px){
   /* For mobile phones: */
   [class="reviewControl"] {
@@ -216,6 +266,19 @@
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 992px){
+  /* For mobile phones: */
+  [class="startingLocationControl"] {
+    min-width:90%;
+    max-height: 20%;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 7%;
+    position:relative;
+    font-size: 12px;
+    margin-bottom: 2%;
+  }
+}
 
  .loopedControls{
   background: #ffffff;
@@ -249,8 +312,21 @@
   margin: 4%;
   text-align: center;
   font-family: "Rajdhani", sans-serif;
+  text-decoration: none;
 }
 
+@media only screen and (max-width: 992px){
+  /* For mobile phones: */
+  [class="navButton"] {
+    margin: 0.2%;
+    font-size: 1em;
+    min-width: fit-content;
+    max-width: fit-content;
+    max-height: min-content;
+    margin-top: 1%;
+    text-decoration: none;
+  }
+} 
 @media only screen and (max-width: 600px){
   /* For mobile phones: */
   [class="navButton"] {
@@ -259,6 +335,7 @@
     min-width: fit-content;
     max-width: fit-content;
     margin-top: 1%;
+    text-decoration: none;
   }
 }
 
