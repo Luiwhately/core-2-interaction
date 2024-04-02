@@ -368,6 +368,12 @@
   }
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+
 /* 
 #RockefellerParkLoop{
   fill:none;
