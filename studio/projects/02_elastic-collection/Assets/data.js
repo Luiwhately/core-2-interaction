@@ -2,19 +2,12 @@
 var tracks = [
     {
         startingLocation: 'Gramercy Park',
-        image: '144E24thSttoRockefellerPark.svg',
+        image: '144E24thSttoRockefellerParkLoop.svg',
         miles: 5,
         review: 5,
         looped: true,
-        
-    },
-    {
-        startingLocation: 'Gramercy Park',
-        image: '144E24thSttoRockefellerParkLoop.svg',
-        miles: 6,
-        review: 4,
-        looped: true,
-        
+        link: "144E24thSttoRockefellerParkLoop.html",
+        title: "144E 24th St to Rockefeller Park Loop",
     },
     {
         startingLocation: 'Gramercy Park',
@@ -22,37 +15,57 @@ var tracks = [
         miles: 9,
         review: 3,
         looped: true,
+        link: "MadisonSquareParktoCentralparkLoop.html",
+        title: "Madison Square Park to Central park Loop",
     },
     {
         startingLocation: 'Brooklyn',
         image: 'BigLoopAtProspectPark.svg',
-        miles: 3.6,
+        miles: 4,
         review: 5,
         looped: true,
+        link: "BigLoopAtProspectPark.html",
+        title: "Big Loop At Prospect Park",
         
     },
     {
         startingLocation: 'Chelsea',
-        image: 'LittleIslandtoOneWorldTrade.svg',
+        image: 'littleIslandToWorldTradeCenterRun.svg',
         miles: 4.3,
         review: 4,
         looped: true,
+        link: "littleIslandToWorldTradeCenterRun.html",
+        title: "Little Island To World Trade Center Run",
         
     },
+
+    {
+        startingLocation: 'Gramercy Park',
+        image: 'LittleIslandtoOneWorldTrade.svg',
+        miles: 6.1,
+        review: 7.3,
+        looped: true,
+        link: "LittleIslandtoOneWorldTrade.html",
+        title: "Little Island To World Trade Center",
+    },
+
     {
         startingLocation: 'Gramercy Park',
         image: 'MadisonSquareParktoEastRiverParkField8.svg',
         miles: 4.5,
         review: 3,
         looped: false,
-        
+        link: "MadisonSquareParktoEastRiverParkField8.html",
+        title: "Madison Square Park to East River Park Field 8",
     },
     {
         startingLocation: ['Upper West', 'Upper East'],
-        image: 'OneLoopatCentralPark.svg',
+        image: 'OneLoopAtCentralPark.svg',
         miles: 4.4,
         review: 4,
         looped: true,
+        link: "OneLoopAtCentralPark.html",
+        title: "One Loop At Central Park",
         
     },
     {
@@ -61,6 +74,8 @@ var tracks = [
         miles: 1.6,
         review: 5,
         looped: true,
+        link: "OneLoopatShumanRunningTrack.html",
+        title: "One Loop at Shuman Running Track",
         
     },
     {
@@ -69,6 +84,8 @@ var tracks = [
         miles: 2.2,
         review: 4,
         looped: true,
+        link: "PebbleBeachtoBrooklynBridgeParkLoop.html",
+        title: "Pebble Beach to Brooklyn Bridge Park",
         
     },
     {
@@ -77,14 +94,18 @@ var tracks = [
         miles: 7,
         review: 4,
         looped: true,
+        link: "RiversideParkFromEmpireStateTrailtoColombiaUniversity.html",
+        title: "Riverside Park From Empire State Trail to Columbia University",
         
     },
     {
         startingLocation: 'Roosevelt Island',
         image: 'RooseveltIsland.svg',
-        miles: 4.5,
+        miles: 5.8,
         review: 5,
         looped: true,
+        link: "RooseveltIsland.html",
+        title: "Roosevelt Island",
         
     },
     {
@@ -93,15 +114,18 @@ var tracks = [
         miles: 2,
         review: 5,
         looped: true,
+        link: "SmallLoopAtProspectPark.html",
+        title: "Small Loop At Prospect Park",
         
     },
     {
         startingLocation: 'Lower East',
         image: 'StuyvesantSquareParktoWilliansburgBridgeLoop.svg',
-        miles: 6,
+        miles: 6.1,
         review: 4,
         looped: true,
-        
+        link: "StuyvesantSquareParktoWiliansmburgBrigdeLoop.html",
+        title: "Stuyvesant Square Park to Williansburg Bridge",
     },
     {
         startingLocation: ['Upper West', 'Uper East'],
@@ -109,7 +133,8 @@ var tracks = [
         miles: 4.8,
         review: 4,
         looped: true,
-        
+        link: "ThreeLoopsAtShumanRunningTrack.html",
+        title: "Three Loops at Shuman Running Track",
     },
     {
         startingLocation: ['Upper West', 'Uper East'],
@@ -117,6 +142,8 @@ var tracks = [
         miles: 13,
         review: 4,
         looped: true,
+        link: "ThreeLoopsInCentralPark.html",
+        title: "Three Loops In Central Park",
         
     },
     {
@@ -125,22 +152,27 @@ var tracks = [
         miles: 3.8,
         review: 3,
         looped: true,
+        link: 'VesseltoHudsonRiverGreenwayLoop.html',
+        title: 'Vessel to Hudson River Greenway',
         
     },
     {
         startingLocation: ['Lower East'],
-        image: '144E24thtoHudsonRiverto5Av11St.svg',
+        image: 'HudsonRiverto5Av11St.svg',
         miles: 4.7,
         review: 4,
         looped: false,
-        
+        link: 'HudsonRiverto5Av11st.html',
+        title: 'Hudson River to 5Av 11st',
     },
     {
-        startingLocation: ['Lower East'],
+        startingLocation: ['Gramercy Park'],
         image: 'HudsonRun.svg',
         miles: 6.1,
         review: 3,
         looped: true,
+        link: 'HudsonRun.html',
+        title: 'Hudson Run',
     },
     {
         startingLocation: ['Lower East'],
@@ -148,6 +180,8 @@ var tracks = [
         miles: 3.9,
         review: 4,
         looped: true,
+        link: 'BrooklynBridgeLoop.html',
+        title: 'Brooklyn Bridge',
     }
 
 ];
