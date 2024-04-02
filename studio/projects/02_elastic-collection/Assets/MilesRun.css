@@ -113,16 +113,14 @@
     /* For mobile phones: */
     [class="navegationContainer"] {
       width: 98%;
-      max-width: 100%;
-      margin: auto;
+      max-width: 80%;
+      margin-left: 15%;
       position:relative;
       font-size: 12px;
+      margin-top: 2%;
 
-    
     }
   }
-
-
 
   .milesControl{
     border-radius: 0%;
@@ -174,7 +172,7 @@
     max-height: fit-content;
     margin: auto;
     margin-left: 22%;
-    margin-top: -23%;
+    margin-top: 7%;
     margin-right: 0%;
     position:relative;
     font-size: 12px;
@@ -243,6 +241,15 @@
   text-align: left;
   font-family: "Rajdhani", sans-serif;
 }
+
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [class="navButton"] {
+    margin: 0.2%;
+    font-size: 1em;
+  }
+}
+
 
 .arrow {
   border: solid black;
