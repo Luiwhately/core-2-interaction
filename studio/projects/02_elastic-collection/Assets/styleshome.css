@@ -90,6 +90,14 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [id="VesseltoHudsonRiverGreenwayLoop"] {
+  min-width: 100%;
+  margin-left: -22%;
+  margin-top: 50%;
+  }
+}
 
   #ThreeLoopsInCentralPark{
     fill: none;
@@ -108,6 +116,14 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="ThreeLoopsInCentralPark"] {
+    min-width: 100%;
+    margin-top: 70%;
+    margin-left:-20%;
+    }
+  }
   #ThreeLoopsatShumanRunningTrack{
     fill: none;
     stroke: black;
@@ -123,6 +139,15 @@ body {
   #ThreeLoopsatShumanRunningTrack:hover{
     stroke:red;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="ThreeLoopsatShumanRunningTrack"] {
+    min-width: 100%;
+    margin-left: -50%;
+    margin-top:15%;
+    }
   }
 
   #StuyvesantSquareParktoWilliansburgBridgeLoop{
@@ -142,6 +167,14 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="StuyvesantSquareParktoWilliansburgBridgeLoop"] {
+    min-width: 100%;
+    margin-top:54%;
+    margin-left:-30%
+    }
+  }
 
   #SmallLoopAtProspectPark{
     fill: none;
@@ -159,6 +192,13 @@ body {
   #SmallLoopAtProspectPark:hover{
     stroke:blue;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="SmallLoopAtProspectPark"] {
+    min-width: 100%;
+    }
   }
 
 
@@ -179,6 +219,14 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="RooseveltIsland"] {
+    min-width: 100%;
+    }
+  }
+
+
   #RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
     fill: none;
     stroke: black;
@@ -193,6 +241,13 @@ body {
   #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover{
     stroke:rgb(148, 44, 44);
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="RiversideParkFromEmpireStateTrailtoColumbiaUniversity"] {
+    min-width: 100%;
+    }
   }
 
   #PebbleBeachtoBrooklynBridgeParkLoop{
@@ -213,6 +268,15 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="PebbleBeachtoBrooklynBridgeParkLoop"] {
+    min-width: 100%;
+    margin-left: -30%;
+    margin-top:45%;
+    }
+  }
+
 #OneLoopatShumanRunningTrack{
   fill: none;
   stroke: black;
@@ -229,6 +293,16 @@ body {
   stroke: green;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [id="OneLoopatShumanRunningTrack"] {
+  min-width: 100%;
+  margin-left: 2%;
+  margin-top: 23%;
+  }
+}
+
 
 
 #OneLoopatCentralPark{
@@ -248,6 +322,15 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="OneLoopatCentralPark"] {
+    min-width: 100%;
+    margin-left: -32%;
+    margin-top: 50%;
+    }
+  }
+
   #MadisonSquareParktoEastRiverParkField8{
     fill: none;
     stroke: black;
@@ -263,6 +346,13 @@ body {
   #MadisonSquareParktoEastRiverParkField8:hover{
     stroke:blue;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="MadisonSquareParktoEastRiverParkField8"] {
+    min-width: 100%;
+    }
   }
 
 #HudsonRiverto5av11st{
@@ -282,7 +372,12 @@ body {
   cursor: pointer;
 }
 
-
+@media only screen and (max-width: 600px){
+  /* For mobile phones: */
+  [id="HudsonRiverto5av11st"] {
+  min-width: 100%;
+  }
+}
 
   #LittleIslandtoOneWorldTrade{
     fill: none;
@@ -301,6 +396,15 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="LittleIslandtoOneWorldTrade"] {
+    min-width: 100%;
+    margin-top:55%;
+    margin-left: -40%;
+    }
+  }
+
   #HudsonRun{
     fill: none;
     stroke: black;
@@ -317,6 +421,15 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="HudsonRun"] {
+    min-width: 100%;
+    margin-top:60%;
+    margin-left: -30%;
+    }
+  }
+
   #BrooklynBridgeLoop{
     fill: none;
     stroke: black;
@@ -331,6 +444,13 @@ body {
   #BrooklynBridgeLoop:hover{
     stroke: blue;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="BrooklynBridgeLoop"] {
+    min-width: 100%;
+    }
   }
 
   #BigLoopAtProspectPark{
@@ -350,6 +470,13 @@ body {
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [id="BigLoopAtProspectPark"] {
+    min-width: 100%;
+    }
+  }
+
   #RiversideParkFromEmpireStateTrailtoColumbiaUniversity{
     fill: none;
      stroke: black;
@@ -365,6 +492,13 @@ body {
    #RiversideParkFromEmpireStateTrailtoColumbiaUniversity:hover {
      stroke: red;
      cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px){
+      /* For mobile phones: */
+      [id="RiversideParkFromEmpireStateTrailtoColumbiaUniversity"] {
+      min-width: 100%;
+      }
     }
 
     #RockefellerParkLoop{
@@ -383,6 +517,13 @@ body {
     #RockefellerParkLoop:hover {
       stroke: red;
       cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px){
+      /* For mobile phones: */
+      [id="RockefellerParkLoop"] {
+      min-width: 100%;
+      }
     }
 
     /* Popup container */
