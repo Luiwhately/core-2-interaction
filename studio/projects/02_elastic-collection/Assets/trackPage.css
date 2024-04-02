@@ -1,13 +1,4 @@
-html{
 
-}
-
-@media only screen and (max-width: 600px){
-  /* For mobile phones: */
-  [class="html"] {
-   overflow: scroll;
-  }
-}
 .museomoderno-bodytext {
   font-family: "MuseoModerno", sans-serif;
   font-optical-sizing: auto;
@@ -92,7 +83,7 @@ html{
     /* For mobile phones: */
     [class="trackName"] {
       width: 100%;
-      font-size: 1.5em;
+      font-size: 1.3em;
       margin-top: 17%;
       margin-left: 4%;
     }
@@ -113,13 +104,19 @@ html{
 
   @media only screen and (max-width: 600px){
     /* For mobile phones: */
-    [class="trackInformation"] {
-      width: 100%;
-      font-size: 1em;
-      margin-top: 110%;
-      margin-left: 4%;
+    [class="TrackInformation"] {
+      position: relative;
+      max-width: 97%;
+      min-width: 97%;
+      font-size: 0.8em;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-top: 7%;
+      margin-bottom: 2%;
     }
   } 
+
+  
 
   .h2{
     font-family: "MuseoModerno", sans-serif;
