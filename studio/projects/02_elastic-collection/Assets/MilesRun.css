@@ -57,7 +57,11 @@
     }
 
   }
-  
+.imageTrack{
+height: 60%;
+width:100%;
+}
+
   .tracks {
     
 
@@ -339,7 +343,7 @@
   }
 }
 
- #RockefellerParkLoop{
+#RockefellerParkLoop{
   fill:none;
   stroke: black;
   stroke-miterlimit: 10;

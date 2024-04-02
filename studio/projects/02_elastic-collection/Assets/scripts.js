@@ -9,7 +9,7 @@ function insertTrack(track) {
 
 	containerElement.innerHTML += `
 		<div class="tracks">
-			<img src="Media/FinalSVGDrawings/${ track["image"] }">
+			<img class="imageTrack" src="Media/FinalSVGDrawings/${ track["image"] }">
 			<div class="trackPageLink">
                 <p>
                     <a class="tracksButton" href="${ track["link"] }"> ${ track["title"] } </a>
