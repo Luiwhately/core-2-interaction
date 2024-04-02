@@ -43,7 +43,7 @@
       text-decoration: none;
   }
 
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 1170px){
     /* For mobile phones: */
     [class="collection"] {
       max-width: 100%;
@@ -88,7 +88,7 @@
   }
 
 
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 1170px){
     /* For mobile phones: */
     [class="tracksButton"] {
       width: 80%;
@@ -106,7 +106,7 @@
     position: absolute;
 
   }
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 1170px){
     /* For mobile phones: */
     [class="logo"] {
       width: 10%;
@@ -129,7 +129,7 @@
   
   }
 
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 1170px){
     /* For mobile phones: */
     [class="navegationContainer"] {
       width: 98%;
@@ -169,7 +169,7 @@
     font-family:"MuseoModerno", sans-serif;
   }
   
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 1170px){
     /* For mobile phones: */
     [class="milesControl"] {
       min-width:90%;
@@ -211,7 +211,7 @@
   font-family:"MuseoModerno", sans-serif;
  }
  
- @media only screen and (max-width: 992px){
+ @media only screen and (max-width: 1170px){
   /* For mobile phones: */
   [class="reviewControl"] {
     min-width:90%;
@@ -266,7 +266,7 @@
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1170px){
   /* For mobile phones: */
   [class="startingLocationControl"] {
     min-width:90%;
@@ -315,7 +315,7 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1170px){
   /* For mobile phones: */
   [class="navButton"] {
     margin: 0.2%;
