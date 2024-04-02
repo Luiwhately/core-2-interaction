@@ -83,9 +83,18 @@
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
     color:#f1f1f1;
-    text-decoration: none;
     
   }
+  }
+
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class="tracksButton"] {
+      width: 80%;
+      height: fit-content;
+      text-decoration: none;
+    }
   }
 
   
@@ -249,6 +258,7 @@
     font-size: 1em;
     min-width: fit-content;
     max-width: fit-content;
+    margin-top: 1%;
   }
 }
 
