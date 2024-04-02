@@ -34,24 +34,26 @@
     grid-auto-flow: dense;
     grid-auto-rows: minmax(20%, auto);
     grid-gap: 2%;
-    border: 2px black;
+    border: 1% black;
     grid-template-columns: repeat(3, 33%);
       max-width: 70%;
       margin-left:24%;
       margin-top: 2%;
       margin-bottom: 2%;
+      text-decoration: none;
   }
 
   @media only screen and (max-width: 600px){
     /* For mobile phones: */
     [class="collection"] {
       max-width: 100%;
-      margin-top: 40%;
-      font-size: 20px;
+      margin-top: 8%;
+      font-size: 0.8em;
       margin-left: 0%;
       margin-right:1%;
       grid-template-columns: repeat(2, 48%);
       grid-gap: 4%;
+      
     }
 
   }
@@ -60,7 +62,6 @@
     
 
     .trackPageLink{
-      border-radius: 0%;
       background: #000000;
       padding: 2%; 
       width: 100%;
@@ -70,6 +71,7 @@
       border-color: #ffffff;
       border-width: 2em;
       font-family:"MuseoModerno", sans-serif;
+      text-decoration: none;
     }
 
       .trackPageLink:hover{
@@ -81,6 +83,7 @@
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
     color:#f1f1f1;
+    text-decoration: none;
     
   }
   }
@@ -118,12 +121,12 @@
       position:relative;
       font-size: 12px;
       margin-top: 2%;
-
+      margin-bottom: 0%;
     }
   }
 
   .milesControl{
-    border-radius: 0%;
+  
     background: #fdfdfd;
     border-color: #000000;
     color:#000000;
@@ -152,7 +155,6 @@
   }
 
  .reviewControl{
-  border-radius:0%;
   background: #ffffff;
   border-color: #000000;
   padding: 2%; 
@@ -181,7 +183,6 @@
 
 
  .startingLocationControl{
-  border-radius:0%;
   background: #ffffff;
   border-color: #000000;
   padding: 2%; 
@@ -208,7 +209,6 @@
 }
 
  .loopedControls{
-  border-radius:0%;
   background: #ffffff;
   border-color: #000000;
   padding: 2%; 
@@ -247,27 +247,10 @@
   [class="navButton"] {
     margin: 0.2%;
     font-size: 1em;
+    min-width: fit-content;
+    max-width: fit-content;
   }
 }
-
-
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.arrow:hover{
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-
-
-
 
  #RockefellerParkLoop{
   fill:none;
