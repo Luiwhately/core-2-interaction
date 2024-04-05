@@ -1,0 +1,20 @@
+
+  .museomoderno-bodytext {
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1em;
+    font-style: normal;
+  }
+
+.State{
+    font-size: 15em;
+    font-family: "MuseoModerno", sans-serif;
+    position:relative;
+    margin-top: 10%;
+    margin-left: 40%;
+    color: azure;
+}
+
+body{
+    background-color: rgb(37, 63, 64);
+}

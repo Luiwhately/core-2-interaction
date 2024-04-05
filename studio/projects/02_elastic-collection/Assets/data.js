@@ -26,7 +26,6 @@ var tracks = [
         looped: true,
         link: "BigLoopAtProspectPark.html",
         title: "Big Loop At Prospect Park",
-        
     },
     {
         startingLocation: 'Chelsea',
@@ -36,7 +35,6 @@ var tracks = [
         looped: true,
         link: "littleIslandToWorldTradeCenterRun.html",
         title: "Little Island To World Trade Center Run",
-        
     },
 
     {
@@ -66,7 +64,6 @@ var tracks = [
         looped: true,
         link: "OneLoopAtCentralPark.html",
         title: "One Loop At Central Park",
-        
     },
     {
         startingLocation: ['Upper West', 'Upper East'],
