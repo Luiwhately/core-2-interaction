@@ -28,9 +28,9 @@ function render(data) {
 		
 		var angle = map(nowSeconds, startSeconds, endSeconds, 0,Math.PI);
 		var shadowElement = document.querySelector('body');
-		var x = Math.sin(angle) * 6;
-		var y = Math.cos(angle) * 8;
-		shadowElement.style.textShadow = `${ x }px ${ y }px 2px black`;
+		var x = Math.sin(angle) * 9;
+		var y = Math.cos(angle) * 18;
+		shadowElement.style.textShadow = `${ x }px ${ y }px 5px black`;
 		console.log(x,y);
 
 		// RENDER COUNTDOWN
