@@ -1,0 +1,422 @@
+body{
+    overflow: hidden;
+}
+
+.m-plus-rounded-1c-light {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .m-plus-rounded-1c-medium {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  header{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2.1rem;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .displayContainer{
+    width: 100%;
+    overflow: hidden;
+     height: 100%;
+  }
+
+  .displayContainer p{
+    filter: blur(2px);
+  }
+
+  .One{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 50%;
+  }
+
+  .Two{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 48%;
+  }
+
+  .Three{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 51%;
+  }
+
+  .Four{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+  }
+
+  .Five{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 42%;
+  }
+
+  .Six{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 50%;
+  }
+
+  .Seven{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 48%;
+  }
+
+  .Eigth{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%;
+    white-space: nowrap;
+  }
+
+  .Nine{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 62%;
+    white-space: nowrap;
+  }
+
+  .Ten{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 46%;
+    white-space: nowrap;
+  }
+
+  .Eleven{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 44%;
+    white-space: nowrap;
+  }
+
+.Twelve{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 56%;
+    white-space: nowrap;
+}
+
+.Thirdteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+      font-size: 4.1rem;
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 58%;
+      white-space: nowrap;
+  }
+
+
+.Fourteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+      font-size: 4.1rem;
+      position: absolute;
+      margin-top: 22%;
+      margin-left: 32%;
+      white-space: nowrap;
+  }
+
+  .Fourteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+      font-size: 4.1rem;
+      position: absolute;
+      margin-top: 23%;
+      margin-left: 30%;
+      white-space: nowrap;
+  }
+
+  .Fithteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 33%;
+    white-space: nowrap;
+  }
+
+  .Sixteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 36%;
+    white-space: nowrap;
+  }
+
+  .Sixteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 58%;
+    white-space: nowrap;
+  }
+
+  .Sixteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 66%;
+    white-space: nowrap;
+  }
+  .Sixteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 66%;
+    white-space: nowrap;
+  }
+
+  .Seventeen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 35%;
+    white-space: nowrap;
+  }
+  .Eigthteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 64%;
+    white-space: nowrap;
+  }
+
+  .Nineteen{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 60%;
+    white-space: nowrap;
+  }
+
+  .Twenty{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 57%;
+    white-space: nowrap;
+  }
+
+  .Twenty{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 57%;
+    white-space: nowrap;
+  }
+
+
+  .TwentyOne{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 53%;
+    white-space: nowrap;
+  }
+
+
+  .TwentyTwo{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 20%;
+    white-space: nowrap;
+  }
+
+  .TwentyThree{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 41%;
+    margin-left: 24%;
+    white-space: nowrap;
+  }
+
+  .TwentyFour{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 18%;
+    white-space: nowrap;
+  }
+
+  .TwentyFour{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 44%;
+    margin-left: 28%;
+    white-space: nowrap;
+  }
+
+  .TwentyFive{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 15%;
+    white-space: nowrap;
+  }
+
+  .TwentySix{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 14%;
+    white-space: nowrap;
+  }
+
+  .TwentySeven{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 20%;
+    white-space: nowrap;
+  }
+
+  .TwentyEight{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 23%;
+    white-space: nowrap;
+  }
+
+  .TwentyNine{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 44%;
+    white-space: nowrap;
+  }
+
+  .Thirdy{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 64%;
+    white-space: nowrap;
+  }
+
+  .ThirdyOne{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 20%;
+    white-space: nowrap;
+  }
+  .ThirdyTwo{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 23%;
+    white-space: nowrap;
+  }
+
+  .ThirdyTwo{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 14%;
+    white-space: nowrap;
+  }
+
+  .ThirdyThree{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 82%;
+    white-space: nowrap;
+  }
+
+  .Studio{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 33.5%;
+    margin-left: 38%;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Studio:hover{
+    color: rgb(68, 68, 68);
+    font-size: 4.2rem;
+    text-shadow:1px 1px 4px black;
+
+
+  }
+
+  .Lab{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 4.1rem;
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 69%;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Lab:hover{
+    color: rgb(68, 68, 68);
+    font-size: 4.2rem;
+    text-shadow:1px 1px 4px black;
+  }
