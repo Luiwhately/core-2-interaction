@@ -7,25 +7,49 @@ fetch(URL)
 		return response.json();
 	})
 	.then((data) => {
-		console.log(data);
 		render(data);
 	})
 
 function render(data) {
-	var sunriseDateObject = new Date(`${ data.results.date } ${ data.results.sunrise }`);
-	var nowDateObject = new Date();
-	var sunsetDateObject = new Date(`${ data.results.date } ${ data.results.sunset }`);
-	var startSeconds = sunriseDateObject.getTime();
-	var nowSeconds = nowDateObject.getTime();
-	var endSeconds = sunsetDateObject.getTime();
-	console.log(startSeconds, nowSeconds, endSeconds);
-	var angle = map(nowSeconds, startSeconds, endSeconds, 0,10);
-	var shadowElement = document.querySelector('.shadow');
-	shadowElement.style.transform = `translateX(60px) rotate(${ angle }deg)`;
-  shadowElement.style.transform = `translateY(5px) rotate(${ angle }deg)`;
+	setInterval(() => {
 
+		// CALCULATE TIMES
+		// ---------------------------
+
+		var sunriseDateObject = new Date(`${ data.results.date } ${ data.results.sunrise }`);
+		var nowDateObject = new Date();
+		var sunsetDateObject = new Date(`${ data.results.date } ${ data.results.sunset }`);
+		var startSeconds = sunriseDateObject.getTime();
+		var nowSeconds = nowDateObject.getTime();
+		var endSeconds = sunsetDateObject.getTime();
+
+		// RENDER SHADOW
+		// ---------------------------
+		
+		var angle = map(nowSeconds, startSeconds, endSeconds, 0,Math.PI);
+		var shadowElement = document.querySelector('body');
+		var x = Math.sin(angle) * 6;
+		var y = Math.cos(angle) * 8;
+		shadowElement.style.textShadow = `${ x }px ${ y }px 2px black`;
+		console.log(x,y);
+
+		// RENDER COUNTDOWN
+		// ---------------------------
+		var countdownHours = Math.floor((endSeconds - nowSeconds) / 60 / 60 / 1000);
+		var countdownMinutes = Math.floor((endSeconds - nowSeconds) / 60 / 1000) - (countdownHours * 60);
+		var countdownSeconds = Math.floor((endSeconds - nowSeconds) / 1000) - (countdownHours * 60 * 60) - (countdownMinutes * 60);
+		document.querySelector('.CountDownClock').innerHTML = `${ countdownHours} ${countdownMinutes} ${ countdownSeconds} ` ;
+
+	}, 1000);
 }
 
 function map(num, in_min, in_max, out_min, out_max) {
 	return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
+
+function radians(degrees) {
+	return degrees * Math. PI / 180.0;
+}
+
+console.log(radians(80));
+

@@ -1,25 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/Styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
-    <title>Spiritual Conference</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 778.48 448.11">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        stroke-miterlimit: 10;
+      }
 
-    <h1>SPIRITUAL ECOLOGY CONFERENCE<h1>
+      .cls-1, .cls-4, .cls-11, .cls-13 {
+        stroke: #fff;
+      }
 
-    <h2>AT ST. ETHELBURGA’S CENTRE JUNE 29, 2024</h2>
-</head>
-<body>
+      .cls-1, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #32422d;
+      }
 
-<svg id="tree_and_girl" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 778.48 448.11">
-<path class="cls-10" d="M151.59,386.25c7.85,4.92,9.81,4.92,9.81,4.92l1.96-.98,3.92.98,4.9,1.97h4.9l3.92.98,2.94.98,1.96,2.95,2.94.98h1.96v1.97l1.96,1.97,1.96,2.95.98,2.95.98,2.95,1.96,1.97,2.94,2.95,1.96.98.98,2.95,1.96,2.95.98,1.97.98,1.97,1.96.98v1.97l1.96,3.94,2.94,2.95c5.88,2.95.98,2.95,5.88,2.95h4.9l4.9-.98h10.79l5.88.98,4.9.98,2.94.98h3.92l.98,1.97h6.87l4.9.98h24.52l4.9-.98h6.87l1.96-1.97.98-.98,1.96-2.95,1.96-1.97,1.96-.98,2.94-1.97h2.94l.98.98,2.94,3.94,4.9,1.97h8.83l6.87-.98v-1.97l-.98-2.95,1.96,1.97.98-.98,1.96-.98v-1.97l-.98-1.97-1.96-.98-.98-2.95-1.96-.98v-2.95l-.98-5.9-.98-1.97-.98-2.95-.98-1.97-.98-.98-1.96-.98h-1.96l-.98,1.97-.98.98-1.96-.98-.98-.98h-.98l-.98.98h-1.96l-.98-.98-.98-1.97-.98-.98h-.98l-.98.98-.98.98h-2.94l-.98.98-.98.98-.98-.98h-1.96l-.98.98-.98.98v9.84h-2.94l-.98-3.94v-2.95l-1.96-1.97-1.96-.98v-.98l-3.92-1.97h-1.96l-.98-.98h-1.96l-3.92-.98h-8.83l-.98-2.95-.98-.98-1.96-1.97-.98-1.97-1.96-.98-.98.98-1.96.98h-1.96l-.98.98-.98,1.97-1.96.98-.98.98h-16.67l-1.96-.98-1.96.98-.98-.98-2.94-1.97-4.9-2.95-4.9-3.94-5.88-3.94-7.85-5.9-1.96-2.95-3.92-3.94-1.96-1.97-2.94-1.97-1.96-2.95-2.94-.98-2.94-.98-2.94-1.97-3.92-.98-2.94.98-1.96.98-.98-.98-4.9-1.97h-1.96l-.98-.98-1.96-.98-.98-.98-1.96-1.97-.98-.98h-1.96l-1.96-1.97-4.9-4.92-1.96-1.97h-1.96v-1.97l-3.92-7.87-2.94-4.92-.98-2.95-.98-3.94.98-3.94-.98-3.94-1.96.98-.98,3.94v3.94l-1.96,1.97-.98.98-.98,2.95.98,3.94v4.92l-.98,1.97.06,6.7v8.49l-.12,6.32.34,3.44.12,3.67.58,2.87,2.94-.98h2.94v9.84h0Z"/>
+      .cls-2 {
+        stroke: #0f0f0e;
+      }
+
+      .cls-2, .cls-3, .cls-11 {
+        fill: #f4f3db;
+      }
+
+      .cls-3 {
+        stroke: #32422d;
+      }
+
+      .cls-4, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        fill: #c7c3a3;
+      }
+
+      .cls-5 {
+        stroke: #c7c3a3;
+      }
+
+      .cls-6 {
+        stroke: #131412;
+      }
+
+      .cls-7 {
+        stroke: #1c1c1c;
+      }
+
+      .cls-8 {
+        stroke: #070707;
+      }
+
+      .cls-9 {
+        stroke: #0c0c0c;
+      }
+
+      .cls-10 {
+        stroke: #000;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        stroke-width: .4px;
+      }
+
+      .cls-12 {
+        stroke: #f9f9f9;
+      }
+
+      .cls-14 {
+        stroke: #fffffd;
+      }
+
+      .cls-15 {
+        stroke: #fcfcf7;
+      }
+
+      .cls-16 {
+        stroke: #fdfffd;
+      }
+    </style>
+  </defs>
+  <path class="cls-10" d="M151.59,386.25c7.85,4.92,9.81,4.92,9.81,4.92l1.96-.98,3.92.98,4.9,1.97h4.9l3.92.98,2.94.98,1.96,2.95,2.94.98h1.96v1.97l1.96,1.97,1.96,2.95.98,2.95.98,2.95,1.96,1.97,2.94,2.95,1.96.98.98,2.95,1.96,2.95.98,1.97.98,1.97,1.96.98v1.97l1.96,3.94,2.94,2.95c5.88,2.95.98,2.95,5.88,2.95h4.9l4.9-.98h10.79l5.88.98,4.9.98,2.94.98h3.92l.98,1.97h6.87l4.9.98h24.52l4.9-.98h6.87l1.96-1.97.98-.98,1.96-2.95,1.96-1.97,1.96-.98,2.94-1.97h2.94l.98.98,2.94,3.94,4.9,1.97h8.83l6.87-.98v-1.97l-.98-2.95,1.96,1.97.98-.98,1.96-.98v-1.97l-.98-1.97-1.96-.98-.98-2.95-1.96-.98v-2.95l-.98-5.9-.98-1.97-.98-2.95-.98-1.97-.98-.98-1.96-.98h-1.96l-.98,1.97-.98.98-1.96-.98-.98-.98h-.98l-.98.98h-1.96l-.98-.98-.98-1.97-.98-.98h-.98l-.98.98-.98.98h-2.94l-.98.98-.98.98-.98-.98h-1.96l-.98.98-.98.98v9.84h-2.94l-.98-3.94v-2.95l-1.96-1.97-1.96-.98v-.98l-3.92-1.97h-1.96l-.98-.98h-1.96l-3.92-.98h-8.83l-.98-2.95-.98-.98-1.96-1.97-.98-1.97-1.96-.98-.98.98-1.96.98h-1.96l-.98.98-.98,1.97-1.96.98-.98.98h-16.67l-1.96-.98-1.96.98-.98-.98-2.94-1.97-4.9-2.95-4.9-3.94-5.88-3.94-7.85-5.9-1.96-2.95-3.92-3.94-1.96-1.97-2.94-1.97-1.96-2.95-2.94-.98-2.94-.98-2.94-1.97-3.92-.98-2.94.98-1.96.98-.98-.98-4.9-1.97h-1.96l-.98-.98-1.96-.98-.98-.98-1.96-1.97-.98-.98h-1.96l-1.96-1.97-4.9-4.92-1.96-1.97h-1.96v-1.97l-3.92-7.87-2.94-4.92-.98-2.95-.98-3.94.98-3.94-.98-3.94-1.96.98-.98,3.94v3.94l-1.96,1.97-.98.98-.98,2.95.98,3.94v4.92l-.98,1.97.06,6.7v8.49l-.12,6.32.34,3.44.12,3.67.58,2.87,2.94-.98h2.94v9.84h0Z"/>
   <polyline class="cls-1" points="146.69 341.97 148.65 340.98 149.63 339.02 151.59 338.03 152.57 339.02 152.57 340.98 152.57 342.95 151.59 345.9 151.59 347.87 151.59 351.81 151.59 354.76 152.57 358.7 153.55 361.65 154.53 363.62 156.49 365.59 160.42 366.57 162.38 368.54 165.32 368.54 168.26 369.52 171.2 367.55 173.17 366.57 176.11 365.59 177.09 365.59 181.99 366.57 183.95 367.55 187.88 367.55 191.11 366.49 192.78 365.59 184.71 361.63 178.82 359.66 174.15 359.68 171.2 358.7"/>
   <polyline class="cls-13" points="89.8 115.64 87.35 115.15 84.41 115.15 82.45 115.15 79.5 116.13 76.56 117.11 74.6 119.08 71.66 120.07 69.7 123.02 67.73 126.95 65.77 129.91 65.77 132.86 63.81 132.86 63.81 135.81 61.85 138.76 59.89 142.7 58.91 146.63 56.95 150.57 55.96 154.51 53.02 157.46 50.08 160.41 47.14 163.36 46.16 161.4 48.12 158.44 51.06 157.46 54 154.51 56.12 148.86 56.95 146.63 57.93 142.7 58.91 140.73 59.89 138.76 59.89 137.78 59.89 134.83 59.89 133.84 60.87 131.87 62.83 131.87 63.81 130.89 65.77 127.94 66.75 124.99 67.73 123.02 68.71 120.07 70.68 119.08 73.62 118.1 74.6 117.11 77.54 116.13 79.5 114.16 80.48 113.18 80.97 110.72 84.34 111.09 86.86 111.7 88.89 113.77 89.8 115.64"/>
   <polygon class="cls-11" points="54 148.6 52.04 147.62 51.06 144.67 49.1 144.67 48.12 143.68 47.14 142.7 46.16 141.71 46.16 143.68 47.14 144.67 49.1 145.65 52.04 149.59 54 151.56 54 154.51 55.18 152.78 57.06 149.15 54 148.6"/>
@@ -54,44 +110,3 @@
   <polyline class="cls-1" points="279.09 405.93 278.11 404.95 277.13 406.92 278.11 407.9 279.09 407.9 281.05 408.88 281.05 409.87 280.07 410.85"/>
   <polyline class="cls-9" points="345.78 442.34 344.8 441.36 344.45 439.61 344.45 439.61 343.82 441.36 342.84 442.34 340.88 442.34 340.88 440.37 339.9 438.4 339.9 441.36 338.91 442.34 337.93 442.34 337.76 440.59 338.91 438.4 337.76 440.59 336.95 442.34 335.97 441.36 335.97 439.39 334.99 439.39 334.01 442.34 332.05 442.34 331.07 442.34 330.09 441.36 329.11 442.34 328.13 442.34 326.16 440.37 324.2 439.39 326.16 442.34 324.2 442.34 322.24 442.34 323.22 440.37 321.26 442.34 318.32 442.34 320.28 441.36 315.38 442.34 315.38 440.37 314.4 442.34 312.43 442.34 310.47 442.34 310.47 442.34"/>
 </svg>
-
-    <div class="CountDownClock"> </div>
-    
-    <div class="SunsetIntroduction"> time to the next sunset in London, England
-    </div>
-    
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-    <main class="Container">
-    
-        <br>
-        <div class="Quote">
-            The phenomenon of the sunset. Every day, the sun comes up, and every day, it lies down on the horizon. The light in our lives, the shadow in our nights.<br>
-            Every day, a phenomenon happens. When was the last time you sitted and watched the sunset? Felt the breeze on your face, the cooler of the night, taking deep breaths? <br>
-            Be present. Take time to connect to Mother Earth and yourself. Watch the next sunset: </div>
-        
-         </div>
-
-        <div class="SunsetText"> How can we come together to once again love the Earth? In a time of unraveling, spiritual ecology can make us aware and closer to the Earth. Grounding has been an area of growth studies regarding body and mental health. Besides bringing personal benefits, taking time to be present in the moment and appreciating nature, can bring us together to understand the Earth’s needs in a personal way, bringing more people together to fight this crisis. <br>
-            <br>
-            In practice, spiritual response to the climate crisis can have different formats. Held at St. Ethelburga’s Centre for Reconciliation and Peace in London, this conference will draw on diverse faith, spiritual, and non-religious perspectives, and give tools for navigating the challenges of our time; inspiration for forging communities that can withstand differences; and modes of being and seeing that restore deep kinship with creation. Join us for a day of talks, workshops, and panel discussions that bring together diverse voices radically reimagining how to be in a relationship with the Earth at this time. <br>
-            <br>       
-            From the sunrise to the sunset and the darkest of every night, the earth is constantly breathing and taking care of all of us. Let us take daily moments to remind ourselves of our responsibilities as part of the beautiful world. <br>
-            <br>
-            <br>
-            Keynote speakers include René August, Emmanuel Vaughan-Lee, Dekila Chungyalpa, and Clare Martin.
-        </div>
-
-        <button class="NavButton">Be present with us</button>
-            
-            <div class="Info">
-		</div>
-    </main>
-    <script src="Assets/Scripts.js" charset="utf-8"></script>
-</body>
-</html>
