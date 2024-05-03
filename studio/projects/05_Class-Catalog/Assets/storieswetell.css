@@ -1,0 +1,91 @@
+
+
+.m-plus-rounded-1c-light {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .logo{
+    width: 8%;
+    height: auto;
+    position: sticky;
+    margin-left: 3.5%;
+    margin-top: 1%;
+    position:absolute;
+  }
+
+  @media only screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class="logo"] {
+      width: 15%;
+      margin-top: 1%;
+    }
+  }
+
+  @media only screen and (max-width: 1170px){
+    /* For mobile phones: */
+    [class="logo"] {
+      width: 15%;
+      margin-top: 1%;
+    }
+  }
+
+.projectExplanation{
+    max-width: 23%;
+    height: fit-content;
+    font-size: 1em;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-top: 13%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.photoMain{
+max-width: 70%;
+max-height: fit-content;
+margin-left: 26%;
+margin-top: 4%;
+position: absolute;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.photoTrack-1{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 8%;
+    margin-top: 40%;
+    position: absolute;
+}
+.photoTrack-2{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 38%;
+    margin-top: 68%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.photoTrack-3{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 4%;
+    margin-top: 97%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.photoTrack-4{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 0%;
+    margin-top: 144%;
+    position: absolute;
+}
+
+.photoTrack-5{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 36%;
+    margin-top: 170%;
+    position: absolute;
+}
