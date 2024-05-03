@@ -28,9 +28,13 @@ function render(data) {
 		
 		var angle = map(nowSeconds, startSeconds, endSeconds, 0,Math.PI);
 		var shadowElement = document.querySelector('body');
+		var svgFilterElement = document.querySelector('feDropShadow');
 		var x = Math.sin(angle) * 9;
 		var y = Math.cos(angle) * 18;
 		shadowElement.style.textShadow = `${ x }px ${ y }px 5px black`;
+		svgFilterElement.dx = x;
+		svgFilterElement.dy = y;
+		svgFilterElement.style.shadow = `${ x }px ${ y }px 5px black`;
 		console.log(x,y);
 
 		// RENDER COUNTDOWN

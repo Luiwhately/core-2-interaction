@@ -14,7 +14,7 @@
 svg{
  position:absolute;
  margin-top: -40%;
- filter: drop-shadow: '';
+ filter:url(#shadow);
 
 }
 
