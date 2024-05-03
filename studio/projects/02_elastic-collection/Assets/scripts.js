@@ -76,11 +76,11 @@ var fiverStarTracks = tracks.filter((track) => {
 // filter looped or not looped
 
 var loopedTracks = tracks.filter((track) => {
-	return track['Looped'] == true;
+	return track['Looped'] == 'Looped';
 })
 
 var notloopedTracks = tracks.filter((track) => {
-	return track['Looped'] == false;
+	return track['Looped'] == 'Not Looped';
 })
 
 //filter starting location
@@ -212,13 +212,13 @@ LowerEastTracksButton.addEventListener("click", () => {
 
 //filter looped
 
-var loopedTracksButton = document.querySelector('.loopedControls input[value="looped"]');
+var loopedTracksButton = document.querySelector('.loopedControl input[value="Looped"]');
 loopedTracksButton.addEventListener("click", () => {
 	insertTracks(loopedTracks);
 	console.log(loopedTracks);
 })
 
-var notloopedTracksButton = document.querySelector('.loopedControls input[value="Not looped"]');
+var notloopedTracksButton = document.querySelector('.loopedControl input[value="Not Looped"]');
 notloopedTracksButton.addEventListener("click", () => {
 	insertTracks(notloopedTracks);
 	console.log(notloopedTracks);
