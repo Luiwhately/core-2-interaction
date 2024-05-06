@@ -32,9 +32,8 @@ function render(data) {
 		var x = Math.sin(angle) * 9;
 		var y = Math.cos(angle) * 18;
 		shadowElement.style.textShadow = `${ x }px ${ y }px 5px black`;
-		svgFilterElement.dx = x;
-		svgFilterElement.dy = y;
-		svgFilterElement.style.shadow = `${ x }px ${ y }px 5px black`;
+		svgFilterElement.setAttribute('dx', x);
+		svgFilterElement.setAttribute('dx', y);
 		console.log(x,y);
 
 		// RENDER COUNTDOWN
