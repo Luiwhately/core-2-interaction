@@ -99,6 +99,19 @@ position: absolute;
 }
 
 .backButton{
-  margin-top: 202%;
-  margin-left: 4%;
+  margin-top: 1%;
+  margin-left: 87.5%;
+  text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
+}
+
+.VisitWebsite{
+margin-top: 3%;
+margin-left:89%;
+text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
 }

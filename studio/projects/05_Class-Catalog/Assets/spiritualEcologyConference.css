@@ -6,29 +6,15 @@
     font-style: normal;
   }
   
-  .logo{
-    width: 8%;
-    height: auto;
-    position: sticky;
-    margin-left: 3.5%;
-    margin-top: 1%;
+  h1{
+    max-width: 25%;
+    height: fit-content;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 3%;
     position:absolute;
-  }
-
-  @media only screen and (max-width: 600px){
-    /* For mobile phones: */
-    [class="logo"] {
-      width: 15%;
-      margin-top: 1%;
-    }
-  }
-
-  @media only screen and (max-width: 1170px){
-    /* For mobile phones: */
-    [class="logo"] {
-      width: 15%;
-      margin-top: 1%;
-    }
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font: 1.7rem;
   }
 
 .projectExplanation{
@@ -36,7 +22,7 @@
     height: fit-content;
     font-size: 1em;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 2%;
     position: absolute;
 }
@@ -95,6 +81,19 @@ z-index: 2;
     padding-bottom: 4%;
 }
 .backButton{
-  margin-top: 172%;
-  margin-left: 4%;
+  margin-top: 0%;
+  margin-left: 89%;
+  text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
+}
+
+.VisitWebsite{
+margin-top: 2%;
+margin-left:89%;
+text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
 }

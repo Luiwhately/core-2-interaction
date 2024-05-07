@@ -125,6 +125,19 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 
 .backButton{
-  margin-top: 220%;
-  margin-left: 4%;
+  margin-top: 4%;
+  margin-left: 87.5%;
+  text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
+}
+
+.VisitWebsite{
+margin-top: 1%;
+margin-left:89%;
+text-decoration: none;
+color: black;
+font-family:"M PLUS Rounded 1c", sans-serif;
+position: absolute;
 }
