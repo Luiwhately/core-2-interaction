@@ -1,0 +1,130 @@
+
+
+.m-plus-rounded-1c-light {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.projectExplanation{
+    max-width: 23%;
+    height: fit-content;
+    font-size: 1em;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-top: 13%;
+    margin-left: 42%;
+    position: absolute;
+}
+
+.photo-1{
+max-width: 20%;
+max-height: fit-content;
+margin-left: 12%;
+margin-top: 4%;
+position: absolute;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-2{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 28%;
+    margin-top: 20%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-3{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 32%;
+    margin-top: 38%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-4{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 40%;
+    margin-top: 58%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-5{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 30%;
+    margin-top: 76%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-6{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 24%;
+    margin-top: 96%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-7{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 20%;
+    margin-top: 120%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-8{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 29%;
+    margin-top: 140%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-10{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 48%;
+    margin-top: 159%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-9{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 60%;
+    margin-top: 167%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-11{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 47%;
+    margin-top: 190%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo-12{
+    max-width: 20%;
+    max-height: fit-content;
+    margin-left: 31%;
+    margin-top: 210%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.backButton{
+  margin-top: 220%;
+  margin-left: 4%;
+}
