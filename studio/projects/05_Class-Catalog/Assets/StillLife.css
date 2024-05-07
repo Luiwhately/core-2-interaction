@@ -1,0 +1,71 @@
+
+
+.m-plus-rounded-1c-light {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+.projectExplanation{
+    max-width: 23%;
+    height: fit-content;
+    font-size: 1em;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-top: 13%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.photoMain{
+max-width: 70%;
+max-height: fit-content;
+margin-left: 25%;
+margin-top: 4%;
+position: absolute;
+
+}
+
+.photoFilter{
+    max-width: 65%;
+    max-height: fit-content;
+    margin-left: 8%;
+    margin-top: 40%;
+    position: absolute;
+}
+
+
+.photoTrack-1{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 28%;
+    margin-top: 75%;
+    position: absolute;
+}
+.photoTrack-2{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 8%;
+    margin-top: 98%;
+    position: absolute;
+}
+.photoTrack-3{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 38%;
+    margin-top: 120%;
+    position: absolute;
+  
+}
+.photoTrack-4{
+    max-width: 60%;
+    max-height: fit-content;
+    margin-left: 0%;
+    margin-top: 144%;
+    position: absolute;
+}
+
+.backButton{
+  margin-top: 180%;
+  margin-left: 88%;
+}
