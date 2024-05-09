@@ -227,100 +227,118 @@ notloopedTracksButton.addEventListener("click", () => {
 
 
 
-//DEFINING FUNCTIONS
-
-// //Miles function
-// function getTracksWithMilesFunction(miles) {
-// 	var getTracksWithMiles = tracks.filter((tracks) => {
-// 		return tracks['miles'].includes(miles);
-// 	})
-
-
-// 	return getTracksWithMiles;
-// }
-
-// //Review  function
-// function getTracksWithReviewFunction(review) {
-// 	var getTracksWithReview = tracks.filter((tracks) => {
-// 		return tracks['review'].includes(review);
-// 	})
-
-
-// 	return getTracksWithReview;
-// }
-
-
-// //Starting Location function
-// function getTracksWithStartingLocationFunction(startingLocation) {
-// 	var startingLocation = tracks.filter((tracks) => {
-// 		return tracks['startingLocation'].includes(startingLocation);
-// 	})
-
-
-// 	return getTracksWithStartingLocation;
-// }
-
-
-// //Looped function
-// function getTracksWithLoopedFunction(looped) {
-// 	var looped = tracks.filter((tracks) => {
-// 		return tracks['looped'].includes(looped);
-// 	})
-
-
-// 	return getTracksWithLooped;
-// }
-
-// //EVENT LISTENERS
-
-// // miles button
-
-// var milesButtonElements = document.querySelectorAll('.milesControl input');
-
-// milesButtonElements.forEach((button) => {
-// 	button.addEventListener('click', (event) => {
-// 		var miles = event.target.value;
-// 		var tracks = getTracksWithMilesFunction(miles);
-// 		insertTracks(tracks);
-// 	});
-// });
-
-// //review button
-
-// var reviewControlElements = document.querySelectorAll('.reviewControl input');
-
-// reviewControlElements.forEach((button) => {
-// 	button.addEventListener('click', (event) => {
-// 		var review = event.target.value;
-// 		var tracks = getTracksWithReviewFunction(review);
-// 		insertTracks(tracks);
-// 	});
-// });
-
-// //Starting Location button
-
-// var startingLocationControlElements = document.querySelectorAll('.startingLocationControl input');
-
-// startingLocationControlElements.forEach((button) => {
-// 	button.addEventListener('click', (event) => {
-// 		var startingLocation = event.target.value;
-// 		var tracks = getTracksWithStartingLocationFunction(startingLocation);
-// 		insertTracks(tracks);
-// 	});
-// });
-
-// //Looped button
-
-// var loopedControlsElements = document.querySelectorAll('.looped input');
-
-// loopedControlsElements.forEach((button) => {
-// 	button.addEventListener('click', (event) => {
-// 		var looped = event.target.value;
-// 		var tracks = getTracksWithLoopedFunction(looped);
-// 		insertTracks(tracks);
-// 	});
-// });
-
-
-
-// console.log(data.js);
+function initMap() {
+	// Create the map with no initial style specified.
+	// It therefore has default styling.
+	map = new google.maps.Map(document.getElementById("map"), {
+	  center: { lat: -33.86, lng: 151.209 },
+	  zoom: 13,
+	  mapTypeControl: false,
+	});
+  
+	// Add a style-selector control to the map.
+	const styleControl = document.getElementById("style-selector-control");
+  
+	map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+  
+	// Set the map's style to the initial value of the selector.
+	const styleSelector = document.getElementById("style-selector");
+  
+	map.setOptions({ styles: styles[styleSelector.value] });
+	// Apply new JSON when the user selects a different style.
+	styleSelector.addEventListener("change", () => {
+	  map.setOptions({ styles: styles[styleSelector.value] });
+	});
+  }
+  
+  const styles = {
+	default: [],
+	silver: [
+	  {
+		elementType: "geometry",
+		stylers: [{ color: "#f5f5f5" }],
+	  },
+	  {
+		elementType: "labels.icon",
+		stylers: [{ visibility: "off" }],
+	  },
+	  {
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#616161" }],
+	  },
+	  {
+		elementType: "labels.text.stroke",
+		stylers: [{ color: "#f5f5f5" }],
+	  },
+	  {
+		featureType: "administrative.land_parcel",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#bdbdbd" }],
+	  },
+	  {
+		featureType: "poi",
+		elementType: "geometry",
+		stylers: [{ color: "#eeeeee" }],
+	  },
+	  {
+		featureType: "poi",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#757575" }],
+	  },
+	  {
+		featureType: "poi.park",
+		elementType: "geometry",
+		stylers: [{ color: "#e5e5e5" }],
+	  },
+	  {
+		featureType: "poi.park",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#9e9e9e" }],
+	  },
+	  {
+		featureType: "road",
+		elementType: "geometry",
+		stylers: [{ color: "#ffffff" }],
+	  },
+	  {
+		featureType: "road.arterial",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#757575" }],
+	  },
+	  {
+		featureType: "road.highway",
+		elementType: "geometry",
+		stylers: [{ color: "#dadada" }],
+	  },
+	  {
+		featureType: "road.highway",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#616161" }],
+	  },
+	  {
+		featureType: "road.local",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#9e9e9e" }],
+	  },
+	  {
+		featureType: "transit.line",
+		elementType: "geometry",
+		stylers: [{ color: "#e5e5e5" }],
+	  },
+	  {
+		featureType: "transit.station",
+		elementType: "geometry",
+		stylers: [{ color: "#eeeeee" }],
+	  },
+	  {
+		featureType: "water",
+		elementType: "geometry",
+		stylers: [{ color: "#c9c9c9" }],
+	  },
+	  {
+		featureType: "water",
+		elementType: "labels.text.fill",
+		stylers: [{ color: "#9e9e9e" }],
+	  },
+	],
+}
