@@ -29,8 +29,8 @@ function render(data) {
 		var angle = map(nowSeconds, startSeconds, endSeconds, 0,Math.PI);
 		var shadowElement = document.querySelector('body');
 		var svgFilterElement = document.querySelector('feDropShadow');
-		var x = Math.sin(angle) * 22;
-		var y = Math.cos(angle) * 34;
+		var x = Math.sin(angle) * 42;
+		var y = Math.cos(angle) * 44;
 		shadowElement.style.textShadow = `${ x }px ${ y }px 8px black`;
 		svgFilterElement.setAttribute('dx', x);
 		svgFilterElement.setAttribute('dx', y);
