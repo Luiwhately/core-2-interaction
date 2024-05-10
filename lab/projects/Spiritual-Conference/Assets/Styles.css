@@ -74,18 +74,19 @@ body {
     .CountDownClock{
       color: #c7c3a3;
       margin-top: 39%;
-      margin-left: 68%;
-      margin-right: 15%;
+      margin-left: 58%;
+      margin-right: 0%;
       padding: 3%;
-      font-size: 1.7em;
+      font-size: 7.2em;
       text-align: center;
       font-family: "Archivo", sans-serif;
+
      
     }
 
     .SunsetIntroduction{
-     margin-top: 4.5%;
-      margin-left:71%;
+     margin-top: -2.5%;
+      margin-left:66%;
       margin-right: 10%;
       margin-bottom: 0%;
       font-size: 0.8em;
@@ -271,4 +272,9 @@ body {
 
     .cls-16 {
       stroke: #fdfffd;
+    }
+
+    .tab{
+      display: inline-block;
+      margin-left: 8%;
     }
