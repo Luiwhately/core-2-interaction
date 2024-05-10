@@ -34,6 +34,7 @@
   grid-auto-flow: dense;
   grid-auto-rows: minmax(20%, 4%);
   grid-gap: 2%;
+  row-gap: 0%;
   border: 1% black;
   grid-template-columns: repeat(3, 33%);
   max-width: 70%;
@@ -82,19 +83,20 @@
     border-color: #ffffff;
     border-width: 2em;
     font-family: "MuseoModerno", sans-serif;
+    font-size: 1.2rem;
     text-decoration: none;
   }
 
   .trackPageLink:hover {
     filter: invert(100%);
     transition-duration: 0.5s;
+    font-size: 1.3rem ;
   }
 
   .tracksButton {
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
     color: #f1f1f1;
-
   }
 }
 
